@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" description="DEA CPU Utilization is above 80% across 2 vCPU" id="AlertDefinition-440c436d-a394-4713-9ccd-31670a3ef330" name="PCF DEA - CPU Warning" resourceKind="Pivotal CloudFoundry 1.5.x" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-74c5f462-061c-4cdf-8cf9-9c3fe712b677"/>
+                    <Symptom ref="SymptomDefinition-865d5c3d-0e85-4975-b99e-39f46afa2389"/>
+                    <Symptom ref="SymptomDefinition-eca70761-453e-4640-99a0-b98c874ace56"/>
+                    <Symptom ref="SymptomDefinition-d356c55b-c260-4d96-95a6-cdedcc7b8c75"/>
+                    <Symptom ref="SymptomDefinition-f21f7703-597b-4d88-b2b8-145a610103e5"/>
+                    <Symptom ref="SymptomDefinition-ba9ecce4-f528-4c7a-995b-1632350a6927"/>
+                    <Symptom ref="SymptomDefinition-21f9d3c1-2a29-4ca3-b68c-734be6b06541"/>
+                    <Symptom ref="SymptomDefinition-aaa14dd2-38cc-4a00-b0d7-64ab2eb46f3a"/>
+                    <Symptom ref="SymptomDefinition-741c02c4-545f-48bd-81b3-25be09e30aab"/>
+                    <Symptom ref="SymptomDefinition-e07c9d50-720c-45ab-bfab-e9574bb20322"/>
+                    <Symptom ref="SymptomDefinition-e3a36fa4-ac23-4e9d-8a49-944e3115c747"/>
+                    <Symptom ref="SymptomDefinition-6050e885-e457-4aa1-9d69-8cdbdf15b71d"/>
+                    <Symptom ref="SymptomDefinition-6e493da1-45fd-4a19-b0c6-de8b91047289"/>
+                    <Symptom ref="SymptomDefinition-e46231d8-6e5d-4256-9302-c7532fbc8ab3"/>
+                    <Symptom ref="SymptomDefinition-7b1026f3-ccf2-40b0-ab39-e75cf9211965"/>
+                    <Symptom ref="SymptomDefinition-8963b7ec-56ce-4f1c-8011-0b33ad08601b"/>
+                    <Symptom ref="SymptomDefinition-c01a4f4d-d403-4117-8cec-500ff409d256"/>
+                    <Symptom ref="SymptomDefinition-7d7387ea-6904-4a0c-98d2-fa38b75b9aef"/>
+                    <Symptom ref="SymptomDefinition-43294457-563b-428f-9aa2-83931f1cfc06"/>
+                    <Symptom ref="SymptomDefinition-29a80041-bae5-451f-9027-7024e1b2b2ea"/>
+                    <Symptom ref="SymptomDefinition-46a8019d-6ba3-4475-8a64-750f5c08107c"/>
+                    <Symptom ref="SymptomDefinition-34a2c68f-fba9-4858-90a3-dec91b3ea3bc"/>
+                    <Symptom ref="SymptomDefinition-cd84c0b7-f047-4b63-a90d-bab2e2088aa2"/>
+                    <Symptom ref="SymptomDefinition-bac0956a-eefd-40ad-83fb-7f77b9ea5e98"/>
+                    <Symptom ref="SymptomDefinition-ee953a87-8ff3-49b4-990b-1ffdab832390"/>
+                    <Symptom ref="SymptomDefinition-00c0d1c8-aaa3-4985-8e50-640aa5b9d1c4"/>
+                    <Symptom ref="SymptomDefinition-4a146fd3-7403-4103-b7bf-21d0fe32dda0"/>
+                    <Symptom ref="SymptomDefinition-5b07e8f9-432d-4803-a203-3123ee1b6c8d"/>
+                    <Symptom ref="SymptomDefinition-1ec646df-55f7-4c3c-b3af-e83afd274204"/>
+                    <Symptom ref="SymptomDefinition-3857a521-309b-41af-bb67-4f174ff77991"/>
+                    <Symptom ref="SymptomDefinition-f442ba31-4308-4172-a3cb-6bea949f710c"/>
+                    <Symptom ref="SymptomDefinition-846503b4-b828-49d5-bbe6-530e398d2bea"/>
+                    <Symptom ref="SymptomDefinition-b67df9f1-6396-4efa-8153-1d2453ce0901"/>
+                    <Symptom ref="SymptomDefinition-3feb2dca-007c-4aec-adaa-d31ed1e00761"/>
+                    <Symptom ref="SymptomDefinition-22bb5ac8-aa7c-4337-9f5f-6a8cee4372eb"/>
+                    <Symptom ref="SymptomDefinition-cef4ff64-6bea-4fc6-8a75-abbfb161e1bf"/>
+                    <Symptom ref="SymptomDefinition-9522e7af-0e59-488c-b939-a711ff3188af"/>
+                    <Symptom ref="SymptomDefinition-3f2f32aa-8c4e-4ebe-a751-ac7a6370ccb7"/>
+                    <Symptom ref="SymptomDefinition-8b5a0e90-07da-4eb0-8d70-739eea3b02b6"/>
+                    <Symptom ref="SymptomDefinition-1be456d5-f39a-44bc-b8ae-3a0010c34a0a"/>
+                    <Symptom ref="SymptomDefinition-617e38e5-ad89-4607-928c-dec22ce03624"/>
+                    <Symptom ref="SymptomDefinition-3466bd62-5543-425d-a5ac-e3264ac45912"/>
+                    <Symptom ref="SymptomDefinition-a08f4edd-9fbe-4527-9431-8c273155ca68"/>
+                    <Symptom ref="SymptomDefinition-963c2e9d-9227-445c-85f4-e74c0ba1cc37"/>
+                    <Symptom ref="SymptomDefinition-18bbc14a-70b3-4ad7-a8c8-29cc8d1ed89f"/>
+                    <Symptom ref="SymptomDefinition-e9e3053d-e3f8-40da-87e1-96f777f79005"/>
+                    <Symptom ref="SymptomDefinition-bc2506dc-af14-49e1-a006-dcee62e89253"/>
+                    <Symptom ref="SymptomDefinition-8e0a5e7f-1262-4076-a0ab-9f7c0b16b48a"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+                <Recommendations>
+                    <Recommendation priority="1" ref="Recommendation-ud-1fafec2a-b22f-460a-836e-4b2e936e22d1"/>
+                </Recommendations>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-00c0d1c8-aaa3-4985-8e50-640aa5b9d1c4" name="PCF DEA ip 192.168.8.114 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.114|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-617e38e5-ad89-4607-928c-dec22ce03624" name="PCF DEA ip 192.168.9.16 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.9.16|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-9522e7af-0e59-488c-b939-a711ff3188af" name="PCF DEA ip 192.168.8.112 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.112|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-43294457-563b-428f-9aa2-83931f1cfc06" name="PCF DEA ip 192.168.8.61 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.61|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c01a4f4d-d403-4117-8cec-500ff409d256" name="PCF DEA ip 192.168.8.64 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.64|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-6e493da1-45fd-4a19-b0c6-de8b91047289" name="PCF DEA ip 192.168.8.186 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.186|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-cef4ff64-6bea-4fc6-8a75-abbfb161e1bf" name="PCF DEA ip 192.168.9.30 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.30|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-865d5c3d-0e85-4975-b99e-39f46afa2389" name="PCF DEA ip 192.168.8.97 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.97|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-846503b4-b828-49d5-bbe6-530e398d2bea" name="PCF DEA ip 192.168.9.19 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.19|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e07c9d50-720c-45ab-bfab-e9574bb20322" name="PCF DEA ip 192.168.8.109 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.109|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-34a2c68f-fba9-4858-90a3-dec91b3ea3bc" name="PCF DEA ip 192.168.8.110 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.110|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4a146fd3-7403-4103-b7bf-21d0fe32dda0" name="PCF DEA ip 192.168.8.104 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.104|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-74c5f462-061c-4cdf-8cf9-9c3fe712b677" name="PCF DEA ip 192.168.8.62 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.62|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e46231d8-6e5d-4256-9302-c7532fbc8ab3" name="PCF DEA ip 192.168.8.115 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.115|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3857a521-309b-41af-bb67-4f174ff77991" name="PCF DEA ip 192.168.8.106 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.106|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-1be456d5-f39a-44bc-b8ae-3a0010c34a0a" name="PCF DEA ip 192.168.9.31 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.31|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d356c55b-c260-4d96-95a6-cdedcc7b8c75" name="PCF DEA ip 192.168.8.105 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.105|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-21f9d3c1-2a29-4ca3-b68c-734be6b06541" name="PCF DEA ip 192.168.8.184 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.184|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8b5a0e90-07da-4eb0-8d70-739eea3b02b6" name="PCF DEA ip 192.168.9.22 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.22|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8963b7ec-56ce-4f1c-8011-0b33ad08601b" name="PCF DEA ip 192.168.9.34 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.34|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-741c02c4-545f-48bd-81b3-25be09e30aab" name="PCF DEA ip 192.168.9.20 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.20|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ee953a87-8ff3-49b4-990b-1ffdab832390" name="PCF DEA ip 192.168.9.32 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.32|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ba9ecce4-f528-4c7a-995b-1632350a6927" name="PCF DEA ip 192.168.9.15 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.15|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-f21f7703-597b-4d88-b2b8-145a610103e5" name="PCF DEA ip 192.168.8.79 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.79|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3f2f32aa-8c4e-4ebe-a751-ac7a6370ccb7" name="PCF DEA ip 192.168.8.107 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.107|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-22bb5ac8-aa7c-4337-9f5f-6a8cee4372eb" name="PCF DEA ip 192.168.9.23 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.23|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8e0a5e7f-1262-4076-a0ab-9f7c0b16b48a" name="PCF DEA ip 192.168.8.113 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.113|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3feb2dca-007c-4aec-adaa-d31ed1e00761" name="PCF DEA ip 192.168.8.103 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.103|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3466bd62-5543-425d-a5ac-e3264ac45912" name="PCF DEA ip 192.168.8.94 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.94|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bc2506dc-af14-49e1-a006-dcee62e89253" name="PCF DEA ip 192.168.8.99 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.99|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-aaa14dd2-38cc-4a00-b0d7-64ab2eb46f3a" name="PCF DEA ip 192.168.9.28 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.28|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e3a36fa4-ac23-4e9d-8a49-944e3115c747" name="PCF DEA ip 192.168.8.101 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.101|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7b1026f3-ccf2-40b0-ab39-e75cf9211965" name="PCF DEA ip 192.168.8.116 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.116|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7d7387ea-6904-4a0c-98d2-fa38b75b9aef" name="PCF DEA ip 192.168.9.29 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.29|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-f442ba31-4308-4172-a3cb-6bea949f710c" name="PCF DEA ip 192.168.8.100 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.100|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-963c2e9d-9227-445c-85f4-e74c0ba1cc37" name="PCF DEA ip 192.168.8.95 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.95|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b67df9f1-6396-4efa-8153-1d2453ce0901" name="PCF DEA ip 192.168.8.98 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.98|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e9e3053d-e3f8-40da-87e1-96f777f79005" name="PCF DEA ip 192.168.9.26 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.26|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5b07e8f9-432d-4803-a203-3123ee1b6c8d" name="PCF DEA ip 192.168.9.33 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.33|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-18bbc14a-70b3-4ad7-a8c8-29cc8d1ed89f" name="PCF DEA ip 192.168.8.111 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.111|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-1ec646df-55f7-4c3c-b3af-e83afd274204" name="PCF DEA ip 192.168.9.21 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.21|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-eca70761-453e-4640-99a0-b98c874ace56" name="PCF DEA ip 192.168.9.25 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.9.25|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-46a8019d-6ba3-4475-8a64-750f5c08107c" name="PCF DEA ip 192.168.9.18 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.18|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a08f4edd-9fbe-4527-9431-8c273155ca68" name="PCF DEA ip 192.168.8.185 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.185|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-cd84c0b7-f047-4b63-a90d-bab2e2088aa2" name="PCF DEA ip 192.168.8.96 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.96|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-6050e885-e457-4aa1-9d69-8cdbdf15b71d" name="PCF DEA ip 192.168.9.17 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.17|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-29a80041-bae5-451f-9027-7024e1b2b2ea" name="PCF DEA ip 192.168.8.108 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.108|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bac0956a-eefd-40ad-83fb-7f77b9ea5e98" name="PCF DEA ip 192.168.8.102 High CPU Utilization" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.102|THROUGHPUT|CPU Load Avg" operator="&gt;" type="htmetric" value="1.6" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+    <Recommendations>
+        <Recommendation key="Recommendation-ud-1fafec2a-b22f-460a-836e-4b2e936e22d1">
+            <Description>&lt;font face="null"&gt;Possible Resolutions&lt;/font&gt;&lt;div&gt;&lt;font face="null"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face="null"&gt;(1) Scale DEAs out&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face="null"&gt;(2) Scale DEAs up&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face="null"&gt;(3) Rebalance AIs&lt;/font&gt;&lt;/div&gt;</Description>
+        </Recommendation>
+    </Recommendations>
+</alertContent>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Use DT to determine if Route Requests per sec are abnormal&#10;&#10;Ops Metrics:router.requests_per_sec" id="AlertDefinition-c69efe7c-8c37-4586-994c-aacdc38dc2c2" name="PCF RTR - Requests per Sec Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-8d9ed2bf-5140-4dd3-9e24-39349a3b9ad1"/>
+                    <Symptom ref="SymptomDefinition-f15ef584-22ae-4f2d-8700-c10e5286f411"/>
+                    <Symptom ref="SymptomDefinition-3c96329d-b900-4b72-979e-fefbe7fe022b"/>
+                    <Symptom ref="SymptomDefinition-bbafc178-8cbe-4a84-95bb-c12601459d79"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-f15ef584-22ae-4f2d-8700-c10e5286f411" name="PCF RTR ip 192.168.8.11 Requests per Second Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Requests per Second" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8d9ed2bf-5140-4dd3-9e24-39349a3b9ad1" name="PCF RTR ip 192.168.8.13 Requests per Second Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Requests per Second" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3c96329d-b900-4b72-979e-fefbe7fe022b" name="PCF RTR ip 192.168.8.14 Requests per Second Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Requests per Second" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bbafc178-8cbe-4a84-95bb-c12601459d79" name="PCF RTR ip 192.168.8.12 Requests per Second Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Requests per Second" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

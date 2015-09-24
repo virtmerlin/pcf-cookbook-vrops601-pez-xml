@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Alert if a DEA has &lt; 1 Day Uptime" id="AlertDefinition-96022538-4d35-444d-899b-27d185f25e53" name="PCF DEA - Uptime" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-100ba31e-554d-4dc4-9e61-be835570f8ec"/>
+                    <Symptom ref="SymptomDefinition-633e51ce-7546-4770-8a2c-5fc5a7e434a3"/>
+                    <Symptom ref="SymptomDefinition-8d874862-9561-45a6-b981-3905b5d83e8c"/>
+                    <Symptom ref="SymptomDefinition-4fccee7c-5d20-4348-a3e8-a2652aa0c544"/>
+                    <Symptom ref="SymptomDefinition-faaaa9cc-fd2b-4d13-9f69-e4b82eb211c0"/>
+                    <Symptom ref="SymptomDefinition-5fdb2839-6c6a-43e7-804a-da54104425e3"/>
+                    <Symptom ref="SymptomDefinition-6b8d8dee-fdd3-4a59-87a3-efeaa05a9a59"/>
+                    <Symptom ref="SymptomDefinition-881efaa6-a91e-431f-8e43-49a62a942b5d"/>
+                    <Symptom ref="SymptomDefinition-da18c99e-cd26-49bf-95e7-9d04c4214ddb"/>
+                    <Symptom ref="SymptomDefinition-61d9e3d8-c2f9-4612-a090-fb08d9df6018"/>
+                    <Symptom ref="SymptomDefinition-c9589a8a-713d-4cc6-bc23-4b354c5ad7ea"/>
+                    <Symptom ref="SymptomDefinition-aceee497-30da-4770-82c8-184ff52fc27f"/>
+                    <Symptom ref="SymptomDefinition-f996175b-4e81-46cb-b816-14a3af62b320"/>
+                    <Symptom ref="SymptomDefinition-e679e9ff-d6b1-47a9-8ee2-48e0866fa56b"/>
+                    <Symptom ref="SymptomDefinition-81da4963-bb21-4ea8-9489-a1041beb9553"/>
+                    <Symptom ref="SymptomDefinition-2dac6270-a897-45ad-9dca-84a39e4eeebb"/>
+                    <Symptom ref="SymptomDefinition-c3acbe57-4c3d-4e17-bf9b-1b11e75664eb"/>
+                    <Symptom ref="SymptomDefinition-ab6b7e82-af68-4414-bef5-0b7e4cd5dc30"/>
+                    <Symptom ref="SymptomDefinition-b0f7ce36-11f7-4167-b33c-2f21494b0642"/>
+                    <Symptom ref="SymptomDefinition-bf2dadd9-6861-438c-9446-a3d922a90e6b"/>
+                    <Symptom ref="SymptomDefinition-a4f1484b-6f3b-4e95-a0d8-da7f1039eefb"/>
+                    <Symptom ref="SymptomDefinition-d58e9b35-106c-4b08-955b-bf48af723f2a"/>
+                    <Symptom ref="SymptomDefinition-8327c7b0-366e-4c07-a8bf-d080e807d873"/>
+                    <Symptom ref="SymptomDefinition-08a80dce-0498-4d51-8962-c268765d2fe5"/>
+                    <Symptom ref="SymptomDefinition-70393cd8-26f3-4f9e-969f-8140e0515fb3"/>
+                    <Symptom ref="SymptomDefinition-df087d9c-91f9-4ba0-b958-91c5536a1434"/>
+                    <Symptom ref="SymptomDefinition-d6869bc9-aa0f-4a57-bbcb-130404ddecb6"/>
+                    <Symptom ref="SymptomDefinition-4ecc4217-c09a-48fb-8391-df39d20dcd60"/>
+                    <Symptom ref="SymptomDefinition-4b3f3b21-6d5a-4f90-8bb4-757721ee8cd6"/>
+                    <Symptom ref="SymptomDefinition-63a8a2b1-f5b1-41ff-a3a9-2902a456a5c9"/>
+                    <Symptom ref="SymptomDefinition-c7e0aa59-fed0-4577-8957-f08257239335"/>
+                    <Symptom ref="SymptomDefinition-c8815f44-450d-47d2-8873-49c9b42cb8e2"/>
+                    <Symptom ref="SymptomDefinition-d9dfea47-e1ca-4693-b10d-d8d3644f2525"/>
+                    <Symptom ref="SymptomDefinition-b2a3ea06-7523-47f4-aef8-6002704546dc"/>
+                    <Symptom ref="SymptomDefinition-277ed785-d1ce-48c5-9f8c-8e5f6aefb808"/>
+                    <Symptom ref="SymptomDefinition-2ea49561-9343-4203-bda1-8cc46c4b2396"/>
+                    <Symptom ref="SymptomDefinition-023c0798-224b-45a2-8729-cc7d7ce74084"/>
+                    <Symptom ref="SymptomDefinition-c04416ef-a086-40b2-ab14-3113c3e8dbb1"/>
+                    <Symptom ref="SymptomDefinition-ecb505d7-5988-4c63-9dbb-7b92f04ca0b9"/>
+                    <Symptom ref="SymptomDefinition-7486a514-65a4-49c5-8445-73406232ac43"/>
+                    <Symptom ref="SymptomDefinition-b08ca6dd-568b-4d3b-9991-10d486944ae6"/>
+                    <Symptom ref="SymptomDefinition-38405036-d5af-4e79-bb00-ab4615d6480f"/>
+                    <Symptom ref="SymptomDefinition-785fc24d-7390-4c04-aa14-538d5aed4aae"/>
+                    <Symptom ref="SymptomDefinition-003db5eb-ecb4-44fe-907f-78bc5228dd64"/>
+                    <Symptom ref="SymptomDefinition-1fc3e1ef-dae6-4966-9b15-c8efc47e3607"/>
+                    <Symptom ref="SymptomDefinition-883da3eb-6bf7-4709-ab33-54d2bb2b9bc5"/>
+                    <Symptom ref="SymptomDefinition-d093c99f-3950-4b67-be09-1b15d4564f02"/>
+                    <Symptom ref="SymptomDefinition-bcf48708-0869-4690-a1a8-977588bb226a"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ab6b7e82-af68-4414-bef5-0b7e4cd5dc30" name="PCF DEA ip 192.168.9.19 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.19|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-aceee497-30da-4770-82c8-184ff52fc27f" name="PCF DEA ip 192.168.9.22 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.22|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d6869bc9-aa0f-4a57-bbcb-130404ddecb6" name="PCF DEA ip 192.168.9.17 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.17|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-2ea49561-9343-4203-bda1-8cc46c4b2396" name="PCF DEA ip 192.168.9.20 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.20|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-633e51ce-7546-4770-8a2c-5fc5a7e434a3" name="PCF DEA ip 192.168.8.103 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.103|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4fccee7c-5d20-4348-a3e8-a2652aa0c544" name="PCF DEA ip 192.168.8.107 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.107|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e679e9ff-d6b1-47a9-8ee2-48e0866fa56b" name="PCF DEA ip 192.168.8.114 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.114|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c9589a8a-713d-4cc6-bc23-4b354c5ad7ea" name="PCF DEA ip 192.168.9.16 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.9.16|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-61d9e3d8-c2f9-4612-a090-fb08d9df6018" name="PCF DEA ip 192.168.8.112 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.112|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ecb505d7-5988-4c63-9dbb-7b92f04ca0b9" name="PCF DEA ip 192.168.8.79 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.79|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-38405036-d5af-4e79-bb00-ab4615d6480f" name="PCF DEA ip 192.168.8.99 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.99|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d093c99f-3950-4b67-be09-1b15d4564f02" name="PCF DEA ip 192.168.9.32 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.32|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8d874862-9561-45a6-b981-3905b5d83e8c" name="PCF DEA ip 192.168.8.109 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.109|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d9dfea47-e1ca-4693-b10d-d8d3644f2525" name="PCF DEA ip 192.168.8.185 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.185|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bf2dadd9-6861-438c-9446-a3d922a90e6b" name="PCF DEA ip 192.168.8.64 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.64|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-883da3eb-6bf7-4709-ab33-54d2bb2b9bc5" name="PCF DEA ip 192.168.9.28 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.28|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c7e0aa59-fed0-4577-8957-f08257239335" name="PCF DEA ip 192.168.8.95 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.95|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-df087d9c-91f9-4ba0-b958-91c5536a1434" name="PCF DEA ip 192.168.8.116 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.116|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-08a80dce-0498-4d51-8962-c268765d2fe5" name="PCF DEA ip 192.168.8.184 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.184|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-785fc24d-7390-4c04-aa14-538d5aed4aae" name="PCF DEA ip 192.168.9.31 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.31|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-1fc3e1ef-dae6-4966-9b15-c8efc47e3607" name="PCF DEA ip 192.168.9.23 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.23|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-63a8a2b1-f5b1-41ff-a3a9-2902a456a5c9" name="PCF DEA ip 192.168.9.30 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.30|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b0f7ce36-11f7-4167-b33c-2f21494b0642" name="PCF DEA ip 192.168.8.97 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.97|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-faaaa9cc-fd2b-4d13-9f69-e4b82eb211c0" name="PCF DEA ip 192.168.8.101 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.101|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c04416ef-a086-40b2-ab14-3113c3e8dbb1" name="PCF DEA ip 192.168.8.96 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.96|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4ecc4217-c09a-48fb-8391-df39d20dcd60" name="PCF DEA ip 192.168.8.100 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.100|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-277ed785-d1ce-48c5-9f8c-8e5f6aefb808" name="PCF DEA ip 192.168.9.18 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.18|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8327c7b0-366e-4c07-a8bf-d080e807d873" name="PCF DEA ip 192.168.8.111 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.111|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4b3f3b21-6d5a-4f90-8bb4-757721ee8cd6" name="PCF DEA ip 192.168.9.33 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.33|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-003db5eb-ecb4-44fe-907f-78bc5228dd64" name="PCF DEA ip 192.168.8.108 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.108|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c8815f44-450d-47d2-8873-49c9b42cb8e2" name="PCF DEA ip 192.168.8.105 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.105|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-81da4963-bb21-4ea8-9489-a1041beb9553" name="PCF DEA ip 192.168.9.21 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.21|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-881efaa6-a91e-431f-8e43-49a62a942b5d" name="PCF DEA ip 192.168.8.106 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.106|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b08ca6dd-568b-4d3b-9991-10d486944ae6" name="PCF DEA ip 192.168.9.34 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.34|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-70393cd8-26f3-4f9e-969f-8140e0515fb3" name="PCF DEA ip 192.168.9.26 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.26|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d58e9b35-106c-4b08-955b-bf48af723f2a" name="PCF DEA ip 192.168.8.115 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.115|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-6b8d8dee-fdd3-4a59-87a3-efeaa05a9a59" name="PCF DEA ip 192.168.9.29 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.29|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-f996175b-4e81-46cb-b816-14a3af62b320" name="PCF DEA ip 192.168.8.104 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.104|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b2a3ea06-7523-47f4-aef8-6002704546dc" name="PCF DEA ip 192.168.8.94 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.94|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a4f1484b-6f3b-4e95-a0d8-da7f1039eefb" name="PCF DEA ip 192.168.8.110 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.110|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bcf48708-0869-4690-a1a8-977588bb226a" name="PCF DEA ip 192.168.8.98 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.98|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c3acbe57-4c3d-4e17-bf9b-1b11e75664eb" name="PCF DEA ip 192.168.8.186 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.186|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-2dac6270-a897-45ad-9dca-84a39e4eeebb" name="PCF DEA ip 192.168.8.62 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.62|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-da18c99e-cd26-49bf-95e7-9d04c4214ddb" name="PCF DEA ip 192.168.8.102 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.102|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5fdb2839-6c6a-43e7-804a-da54104425e3" name="PCF DEA ip 192.168.9.15 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.15|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7486a514-65a4-49c5-8445-73406232ac43" name="PCF DEA ip 192.168.8.61 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.61|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-100ba31e-554d-4dc4-9e61-be835570f8ec" name="PCF DEA ip 192.168.9.25 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.9.25|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-023c0798-224b-45a2-8729-cc7d7ce74084" name="PCF DEA ip 192.168.8.113 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.113|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

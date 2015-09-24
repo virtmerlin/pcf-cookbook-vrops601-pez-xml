@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Alert if the Router is unavailable&#10;&#10;ops Metrics:health" id="AlertDefinition-06485b39-3769-4ce0-a1d7-3f5272dfb68c" name="PCF RTR - Availability" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-16612a38-8277-4b82-8668-131a9b6dcb7f"/>
+                    <Symptom ref="SymptomDefinition-21d49810-b879-4c74-b1fa-7c17db8be3b0"/>
+                    <Symptom ref="SymptomDefinition-b75e9e63-5a48-437a-b0b6-986fc398a359"/>
+                    <Symptom ref="SymptomDefinition-9c755333-bf88-4de7-9b19-9758e7126773"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b75e9e63-5a48-437a-b0b6-986fc398a359" name="PCF RTR ip 192.168.8.13 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.13|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-21d49810-b879-4c74-b1fa-7c17db8be3b0" name="PCF RTR ip 192.168.8.12 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.12|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-9c755333-bf88-4de7-9b19-9758e7126773" name="PCF RTR ip 192.168.8.11 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.11|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-16612a38-8277-4b82-8668-131a9b6dcb7f" name="PCF RTR ip 192.168.8.14 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.14|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

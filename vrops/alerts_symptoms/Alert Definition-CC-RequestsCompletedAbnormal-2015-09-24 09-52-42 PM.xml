@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="The number of expected API request served should not deviate from expected DT.&#10;&#10;Ops Metrics:cc.requests.completed" id="AlertDefinition-4a133cf2-bade-4194-a343-34e15879dfb8" name="PCF CC - Requests Completed Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-fdd705a4-96ed-4ab2-9d14-b5eed1672ec2"/>
+                    <Symptom ref="SymptomDefinition-7fca0c34-8112-45bb-bb70-7ae2112449c6"/>
+                    <Symptom ref="SymptomDefinition-cbd98b89-abb8-45e4-be83-9dadd7bcb4e1"/>
+                    <Symptom ref="SymptomDefinition-5416cd19-bb24-4c75-a713-e962fa3f3c44"/>
+                    <Symptom ref="SymptomDefinition-bf1edd27-1e2b-4012-8a90-81368238a2a6"/>
+                    <Symptom ref="SymptomDefinition-43c5da81-e307-41ec-a38c-66eb0b89c8ad"/>
+                    <Symptom ref="SymptomDefinition-a664e32c-eb0c-49c6-abae-77db89dfcec6"/>
+                    <Symptom ref="SymptomDefinition-2b6b26f9-b584-44d8-a7d9-960a650b1757"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-7fca0c34-8112-45bb-bb70-7ae2112449c6" name="PCF CC ip 192.168.8.63 Requests Completed Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="warning">
+                <Condition key="CloudControllerr:CloudController index:1 ip:192.168.8.63|THROUGHPUT|Requests Completed" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-fdd705a4-96ed-4ab2-9d14-b5eed1672ec2" name="PCF CC ip 192.168.8.74 Requests Completed Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="warning">
+                <Condition key="CloudControllerr:CloudController index:1 ip:192.168.8.74|THROUGHPUT|Requests Completed" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-2b6b26f9-b584-44d8-a7d9-960a650b1757" name="PCF CC ip 192.168.8.93 Requests Completed Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="warning">
+                <Condition key="CloudControllerr:CloudController index:1 ip:192.168.8.93|THROUGHPUT|Requests Completed" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-43c5da81-e307-41ec-a38c-66eb0b89c8ad" name="PCF CC ip 192.168.8.32 Requests Completed Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="warning">
+                <Condition key="CloudControllerr:CloudController index:0 ip:192.168.8.32|THROUGHPUT|Requests Completed" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-5416cd19-bb24-4c75-a713-e962fa3f3c44" name="PCF CC ip 192.168.8.33 Requests Completed Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="warning">
+                <Condition key="CloudControllerr:CloudController index:0 ip:192.168.8.33|THROUGHPUT|Requests Completed" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-bf1edd27-1e2b-4012-8a90-81368238a2a6" name="PCF CC ip 192.168.8.34 Requests Completed Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="warning">
+                <Condition key="CloudControllerr:CloudController index:0 ip:192.168.8.34|THROUGHPUT|Requests Completed" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-a664e32c-eb0c-49c6-abae-77db89dfcec6" name="PCF CC ip 192.168.8.76 Requests Completed Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="warning">
+                <Condition key="CloudControllerr:CloudController index:1 ip:192.168.8.76|THROUGHPUT|Requests Completed" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-cbd98b89-abb8-45e4-be83-9dadd7bcb4e1" name="PCF CC ip 192.168.8.31 Requests Completed Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="warning">
+                <Condition key="CloudControllerr:CloudController index:0 ip:192.168.8.31|THROUGHPUT|Requests Completed" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

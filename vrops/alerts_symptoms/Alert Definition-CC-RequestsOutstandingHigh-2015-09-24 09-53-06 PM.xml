@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Cloud Controllers  are not serving API requests in appropriate timeframe.&#10;&#10;Ops Metrics:cc.requests.outstanding" id="AlertDefinition-29a9fc27-0801-4bb6-a714-d430ce18dee0" name="PCF CC - Requests Outstanding High" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-e5878d3c-e1c3-4e00-bace-bff2d6470b13"/>
+                    <Symptom ref="SymptomDefinition-a2b81908-a7b7-48b3-b911-4897721fb866"/>
+                    <Symptom ref="SymptomDefinition-648a12b6-eab6-4f39-9596-6ebe37548a2a"/>
+                    <Symptom ref="SymptomDefinition-bd9ea6b7-34f1-42d1-931f-6ac8013c843b"/>
+                    <Symptom ref="SymptomDefinition-2ac5b576-f1bf-4042-a6c3-3f747d8f6fa1"/>
+                    <Symptom ref="SymptomDefinition-e56f3925-b1a6-4869-a130-c51394c3099f"/>
+                    <Symptom ref="SymptomDefinition-976e9784-9c70-4390-a5e0-65158e4e6c7e"/>
+                    <Symptom ref="SymptomDefinition-fc7f2fe9-5b7b-4eef-a212-6e4b3bffeb4c"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-fc7f2fe9-5b7b-4eef-a212-6e4b3bffeb4c" name="PCF CC ip 192.168.8.34 Requests Outstanding High" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="immediate">
+                <Condition key="CloudControllerr:CloudController index:0 ip:192.168.8.34|THROUGHPUT|Requests Outstanding" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-e5878d3c-e1c3-4e00-bace-bff2d6470b13" name="PCF CC ip 192.168.8.93 Requests Outstanding High" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="immediate">
+                <Condition key="CloudControllerr:CloudController index:1 ip:192.168.8.93|THROUGHPUT|Requests Outstanding" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-2ac5b576-f1bf-4042-a6c3-3f747d8f6fa1" name="PCF CC ip 192.168.8.76 Requests Outstanding High" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="immediate">
+                <Condition key="CloudControllerr:CloudController index:1 ip:192.168.8.76|THROUGHPUT|Requests Outstanding" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-648a12b6-eab6-4f39-9596-6ebe37548a2a" name="PCF CC ip 192.168.8.32 Requests Outstanding High" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="immediate">
+                <Condition key="CloudControllerr:CloudController index:0 ip:192.168.8.32|THROUGHPUT|Requests Outstanding" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-a2b81908-a7b7-48b3-b911-4897721fb866" name="PCF CC ip 192.168.8.31 Requests Outstanding High" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="immediate">
+                <Condition key="CloudControllerr:CloudController index:0 ip:192.168.8.31|THROUGHPUT|Requests Outstanding" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-e56f3925-b1a6-4869-a130-c51394c3099f" name="PCF CC ip 192.168.8.63 Requests Outstanding High" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="immediate">
+                <Condition key="CloudControllerr:CloudController index:1 ip:192.168.8.63|THROUGHPUT|Requests Outstanding" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-976e9784-9c70-4390-a5e0-65158e4e6c7e" name="PCF CC ip 192.168.8.74 Requests Outstanding High" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="immediate">
+                <Condition key="CloudControllerr:CloudController index:1 ip:192.168.8.74|THROUGHPUT|Requests Outstanding" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-bd9ea6b7-34f1-42d1-931f-6ac8013c843b" name="PCF CC ip 192.168.8.33 Requests Outstanding High" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="3">
+            <State severity="immediate">
+                <Condition key="CloudControllerr:CloudController index:0 ip:192.168.8.33|THROUGHPUT|Requests Outstanding" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

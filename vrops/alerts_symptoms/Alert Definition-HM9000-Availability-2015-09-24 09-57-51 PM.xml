@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Availability of the Health Manager" id="AlertDefinition-f5578aee-c07d-4860-a13f-d78e9661e5bc" name="PCF HM9000 - Availability" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-e392f1a2-fff8-404d-9ec9-04919696cc9a"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-e392f1a2-fff8-404d-9ec9-04919696cc9a" name="PCF HM9K Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="HM9000:HM9000 index:0 ip:192.168.8.36|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

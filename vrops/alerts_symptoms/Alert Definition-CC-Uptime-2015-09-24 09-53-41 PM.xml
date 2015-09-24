@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" description="Track uptime to alert on CloudControllers that have less than 1 Day of uptime&#10;&#10;Ope Metrics:uptime_in_seconds" id="AlertDefinition-993af59e-fa26-4323-8176-9ce2a9063d1a" name="PCF CC - Uptime" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-707785d7-d4dd-40f8-bb41-de17f04cd4a8"/>
+                    <Symptom ref="SymptomDefinition-7f7047e9-a705-4317-ad9f-0533c05dbc5a"/>
+                    <Symptom ref="SymptomDefinition-8a837ac7-b230-49a4-900b-117f1930963d"/>
+                    <Symptom ref="SymptomDefinition-a5612481-a178-4728-9a46-370a8335d30a"/>
+                    <Symptom ref="SymptomDefinition-43d47998-7a6b-4ffa-9172-fb7102dea1d4"/>
+                    <Symptom ref="SymptomDefinition-ae13aec3-c89d-4562-bb9c-7372c63821ee"/>
+                    <Symptom ref="SymptomDefinition-277fb3ce-1af8-4b7f-b657-58d2fbf0a98e"/>
+                    <Symptom ref="SymptomDefinition-e7e88373-0f1f-4533-926a-3c54846518f4"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-277fb3ce-1af8-4b7f-b657-58d2fbf0a98e" name="PCF CC ip 192.168.8.32 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="CloudController:CloudController index:0 ip:192.168.8.32|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a5612481-a178-4728-9a46-370a8335d30a" name="PCF CC ip 192.168.8.33 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="CloudController:CloudController index:0 ip:192.168.8.33|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-43d47998-7a6b-4ffa-9172-fb7102dea1d4" name="PCF CC ip 192.168.8.63 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="CloudController:CloudController index:1 ip:192.168.8.63|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ae13aec3-c89d-4562-bb9c-7372c63821ee" name="PCF CC ip 192.168.8.31 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="CloudController:CloudController index:0 ip:192.168.8.31|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e7e88373-0f1f-4533-926a-3c54846518f4" name="PCF CC ip 192.168.8.74 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="CloudController:CloudController index:1 ip:192.168.8.74|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-707785d7-d4dd-40f8-bb41-de17f04cd4a8" name="PCF CC ip 192.168.8.34 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="CloudController:CloudController index:0 ip:192.168.8.34|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7f7047e9-a705-4317-ad9f-0533c05dbc5a" name="PCF CC ip 192.168.8.93 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="CloudController:CloudController index:1 ip:192.168.8.93|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8a837ac7-b230-49a4-900b-117f1930963d" name="PCF CC ip 192.168.8.76 Uptime lt 1 DAY" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="CloudController:CloudController index:1 ip:192.168.8.76|THROUGHPUT|Uptime (sec)" operator="&lt;" type="htmetric" value="86400.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

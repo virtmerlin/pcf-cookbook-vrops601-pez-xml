@@ -1,0 +1,2794 @@
+{
+   "localization": {"group": {
+      "de": [
+         {
+            "value": "vSphere-Dashboards",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere-Konfiguration",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "ko": [
+         {
+            "value": "vSphere 대시보드",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere 구성",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "zh-TW": [
+         {
+            "value": "vSphere 儀表板",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere 組態",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "ja": [
+         {
+            "value": "vSphere ダッシュボード",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere の構成",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "en": [
+         {
+            "value": "vSphere Dashboards",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere Configuration",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "fr": [
+         {
+            "value": "Tableaux de bord vSphere",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "Configuration vSphere",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "zh-CN": [
+         {
+            "value": "vSphere 仪表板",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere 配置",
+            "key": "vSphere Configuration"
+         }
+      ]
+   }},
+   "entries": {
+      "resourceKind": [{
+         "resourceKindKey": "Pivotal CloudFoundry 1.5.x",
+         "internalId": "resourceKind:id:0_::_",
+         "adapterKindKey": "HypericApiAdapter"
+      }],
+      "resource": [{
+         "resourceKindKey": "Pivotal CloudFoundry 1.5.x",
+         "internalId": "resource:id:0_::_",
+         "adapterKindKey": "HypericApiAdapter",
+         "identifiers": [
+            {
+               "value": "12264",
+               "key": "HypericObjectId"
+            },
+            {
+               "value": "df706763-0492-11e5-8d94-0050569b54d9",
+               "key": "ServerId"
+            }
+         ],
+         "name": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x"
+      }]
+   },
+   "dashboards": [{
+      "shared": false,
+      "temporary": false,
+      "creationTime": 1442516387651,
+      "autoswitchEnabled": false,
+      "importAttempts": 0,
+      "columnProportion": "0.5-0.5",
+      "importComplete": true,
+      "columnCount": 2,
+      "widgets": [
+         {
+            "collapsed": false,
+            "x": 1,
+            "y": 1,
+            "id": "97c7dbc2-f1bd-4ded-8d06-c9b34cf2a2f7",
+            "type": "SparklineChart",
+            "title": "Router Response Time 90th Percentile - Seconds",
+            "config": {
+               "columnSequence": {"columnSequence": "labelFirst"},
+               "refreshInterval": 300,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceMetrics": [],
+                  "resourceKindMetrics": [
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "",
+                        "metricName": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Latency in Milliseconds 90 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Latency in Milliseconds 90 Percentile",
+                        "resourceKindName": "Pivotal CloudFoundry 1.5.x",
+                        "resourceName": "",
+                        "isStringMetric": false,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "",
+                        "metricName": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Latency in Milliseconds 90 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Latency in Milliseconds 90 Percentile",
+                        "resourceKindName": "Pivotal CloudFoundry 1.5.x",
+                        "resourceName": "",
+                        "isStringMetric": false,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "",
+                        "metricName": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Latency in Milliseconds 90 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Latency in Milliseconds 90 Percentile",
+                        "resourceKindName": "Pivotal CloudFoundry 1.5.x",
+                        "resourceName": "",
+                        "isStringMetric": false,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "",
+                        "metricName": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Latency in Milliseconds 90 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Latency in Milliseconds 90 Percentile",
+                        "resourceKindName": "Pivotal CloudFoundry 1.5.x",
+                        "resourceName": "",
+                        "isStringMetric": false,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     }
+                  ]
+               },
+               "refreshContent": {"refreshContent": true},
+               "selfProvider": {"selfProvider": true},
+               "title": "Router Response Time 90th Percentile - Seconds",
+               "resInteractionMode": null
+            },
+            "height": 214
+         },
+         {
+            "collapsed": false,
+            "x": 1,
+            "y": 2,
+            "id": "f75c2287-13c9-4159-af80-0c321c379851",
+            "type": "SparklineChart",
+            "title": "Router Response Time 50th Percentile - Seconds",
+            "config": {
+               "columnSequence": {"columnSequence": "labelFirst"},
+               "refreshInterval": 300,
+               "metric": {
+                  "mode": "resource",
+                  "resourceMetrics": [
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Latency in Milliseconds 50 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Latency in Milliseconds 50 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Latency in Milliseconds 50 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Latency in Milliseconds 50 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Latency in Milliseconds 50 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Latency in Milliseconds 50 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Latency in Milliseconds 50 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Latency in Milliseconds 50 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     }
+                  ],
+                  "resourceKindMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "selfProvider": {"selfProvider": true},
+               "title": "Router Response Time 50th Percentile - Seconds",
+               "resInteractionMode": null
+            },
+            "height": 190
+         },
+         {
+            "collapsed": false,
+            "x": 1,
+            "y": 3,
+            "id": "65472f88-a2cc-41c8-8251-e7b3b5d35c87",
+            "type": "SparklineChart",
+            "title": "Router Response Time 75th Percentile - Seconds",
+            "config": {
+               "columnSequence": {"columnSequence": "labelFirst"},
+               "refreshInterval": 300,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceMetrics": [],
+                  "resourceKindMetrics": [
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "",
+                        "metricName": "Router|Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Latency in Milliseconds 75 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Latency in Milliseconds 75 Percentile",
+                        "resourceKindName": "Pivotal CloudFoundry 1.5.x",
+                        "resourceName": "",
+                        "isStringMetric": false,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "",
+                        "metricName": "Router|Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Latency in Milliseconds 75 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Latency in Milliseconds 75 Percentile",
+                        "resourceKindName": "Pivotal CloudFoundry 1.5.x",
+                        "resourceName": "",
+                        "isStringMetric": false,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "",
+                        "metricName": "Router|Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Latency in Milliseconds 75 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Latency in Milliseconds 75 Percentile",
+                        "resourceKindName": "Pivotal CloudFoundry 1.5.x",
+                        "resourceName": "",
+                        "isStringMetric": false,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "",
+                        "metricName": "Router|Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Latency in Milliseconds 75 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Latency in Milliseconds 75 Percentile",
+                        "resourceKindName": "Pivotal CloudFoundry 1.5.x",
+                        "resourceName": "",
+                        "isStringMetric": false,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     }
+                  ]
+               },
+               "refreshContent": {"refreshContent": true},
+               "selfProvider": {"selfProvider": true},
+               "title": "Router Response Time 75th Percentile - Seconds",
+               "resInteractionMode": null
+            },
+            "height": 205
+         },
+         {
+            "collapsed": false,
+            "x": 1,
+            "y": 5,
+            "id": "fb79b616-c1d6-4594-914c-2336a7736b9a",
+            "type": "SparklineChart",
+            "title": "Router Response Time 99th Percentile - Seconds",
+            "config": {
+               "columnSequence": {"columnSequence": "labelFirst"},
+               "refreshInterval": 300,
+               "metric": {
+                  "mode": "resource",
+                  "resourceMetrics": [
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Latency in Milliseconds 99 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Latency in Milliseconds 99 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Latency in Milliseconds 99 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Latency in Milliseconds 99 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Latency in Milliseconds 99 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Latency in Milliseconds 99 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Latency in Milliseconds 99 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Latency in Milliseconds 99 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     }
+                  ],
+                  "resourceKindMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "selfProvider": {"selfProvider": true},
+               "title": "Router Response Time 99th Percentile - Seconds",
+               "resInteractionMode": null
+            },
+            "height": 187
+         },
+         {
+            "collapsed": false,
+            "x": 1,
+            "y": 4,
+            "id": "a8a5c235-fb5f-4886-8c47-4cf0c92750f1",
+            "type": "SparklineChart",
+            "title": "Router Response Time 95th Percentile - Seconds",
+            "config": {
+               "columnSequence": {"columnSequence": "labelFirst"},
+               "refreshInterval": 300,
+               "metric": {
+                  "mode": "resource",
+                  "resourceMetrics": [
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Latency in Milliseconds 95 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Latency in Milliseconds 95 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Latency in Milliseconds 95 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Latency in Milliseconds 95 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Latency in Milliseconds 95 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Latency in Milliseconds 95 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     },
+                     {
+                        "yellowBound": 0.3,
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Latency in Milliseconds 95 Percentile",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Latency in Milliseconds 95 Percentile",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": 0.5,
+                        "unit": "",
+                        "redBound": 1,
+                        "colorMethod": false
+                     }
+                  ],
+                  "resourceKindMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "selfProvider": {"selfProvider": true},
+               "title": "Router Response Time 95th Percentile - Seconds",
+               "resInteractionMode": null
+            },
+            "height": 191
+         },
+         {
+            "collapsed": false,
+            "x": 2,
+            "y": 4,
+            "id": "b883f7f0-03e9-4d46-8375-98d4b055f6bb",
+            "type": "MetricPicker",
+            "title": "PCF Metric Drill Down",
+            "config": {
+               "refreshInterval": 300,
+               "refreshContent": {"refreshContent": true},
+               "title": "PCF Metric Drill Down"
+            },
+            "height": 184
+         },
+         {
+            "collapsed": false,
+            "x": 2,
+            "y": 3,
+            "id": "5a712367-dd30-4018-a501-59e5fda89e1e",
+            "type": "ContainerOverview",
+            "title": "PCF Foundation",
+            "config": {
+               "resourceKind": null,
+               "filterMode": {"filterMode": "resource"},
+               "refreshInterval": 300,
+               "refreshContent": {"refreshContent": true},
+               "resources": [{
+                  "resourceId": "resource:id:0_::_",
+                  "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x"
+               }],
+               "title": "PCF Foundation"
+            },
+            "height": 175
+         },
+         {
+            "collapsed": false,
+            "x": 2,
+            "y": 5,
+            "id": "bd34e351-13c2-4b1d-88e7-2b36babb3393",
+            "type": "MetricChart",
+            "title": "PCF Metric Charts",
+            "config": {
+               "resourceMetrics": [],
+               "refreshInterval": 300,
+               "refreshContent": {"refreshContent": true},
+               "selfProvider": {"selfProvider": false},
+               "title": "PCF Metric Charts",
+               "resInteractionMode": null
+            },
+            "height": 300
+         },
+         {
+            "collapsed": false,
+            "x": 2,
+            "y": 1,
+            "id": "b0e93158-7b93-460e-9ec0-5e981301262c",
+            "type": "SparklineChart",
+            "title": "Router Requests / Sec Per Router",
+            "config": {
+               "columnSequence": {"columnSequence": "labelFirst"},
+               "refreshInterval": 300,
+               "metric": {
+                  "mode": "resource",
+                  "resourceMetrics": [
+                     {
+                        "yellowBound": "",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Requests per Second",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Requests per Second",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": "",
+                        "unit": null,
+                        "redBound": "",
+                        "colorMethod": true
+                     },
+                     {
+                        "yellowBound": "",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Requests per Second",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Requests per Second",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": "",
+                        "unit": null,
+                        "redBound": "",
+                        "colorMethod": true
+                     },
+                     {
+                        "yellowBound": "",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Requests per Second",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Requests per Second",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": "",
+                        "unit": null,
+                        "redBound": "",
+                        "colorMethod": true
+                     },
+                     {
+                        "yellowBound": "",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Requests per Second",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Requests per Second",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": "",
+                        "unit": null,
+                        "redBound": "",
+                        "colorMethod": true
+                     }
+                  ],
+                  "resourceKindMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "selfProvider": {"selfProvider": true},
+               "title": "Router Requests / Sec Per Router",
+               "resInteractionMode": null
+            },
+            "height": 192
+         },
+         {
+            "collapsed": false,
+            "x": 2,
+            "y": 2,
+            "id": "afec8acd-bd79-495c-9838-fdfd98beba87",
+            "type": "SparklineChart",
+            "title": "Router Requests Rejected  Per Router",
+            "config": {
+               "columnSequence": {"columnSequence": "labelFirst"},
+               "refreshInterval": 300,
+               "metric": {
+                  "mode": "resource",
+                  "resourceMetrics": [
+                     {
+                        "yellowBound": "",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Rejected Request",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Rejected Request",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": "",
+                        "unit": null,
+                        "redBound": "",
+                        "colorMethod": true
+                     },
+                     {
+                        "yellowBound": "",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Rejected Request",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Rejected Request",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": "",
+                        "unit": null,
+                        "redBound": "",
+                        "colorMethod": true
+                     },
+                     {
+                        "yellowBound": "",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Rejected Request",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Rejected Request",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": "",
+                        "unit": null,
+                        "redBound": "",
+                        "colorMethod": true
+                     },
+                     {
+                        "yellowBound": "",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "metricName": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Rejected Request",
+                        "metricKey": "Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Rejected Request",
+                        "resourceKindName": "",
+                        "resourceName": "hyperic-01.core.pao.pez.pivotal.io Pivotal CloudFoundry 1.5.x",
+                        "isStringMetric": false,
+                        "resourceKindId": "002017HypericApiAdapterPivotal CloudFoundry 1.5.x",
+                        "label": "",
+                        "orangeBound": "",
+                        "unit": null,
+                        "redBound": "",
+                        "colorMethod": true
+                     }
+                  ],
+                  "resourceKindMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "selfProvider": {"selfProvider": true},
+               "title": "Router Requests Rejected  Per Router",
+               "resInteractionMode": null
+            },
+            "height": 192
+         }
+      ],
+      "userId": "346a78e8-5af7-4e87-9270-3b8976f5fb07",
+      "isDefault": false,
+      "name": "PCF Routers (Heritage)",
+      "rank": 46,
+      "disabled": false,
+      "id": "7d9ccec3-6da4-4342-ac34-e2721df1c678",
+      "locked": false,
+      "dashboardNavigations": {
+         "f75c2287-13c9-4159-af80-0c321c379851": [
+            {
+               "id": "8934f615-1c5b-4ec0-8ce5-26acb9dfc4c5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "947ccd2e-af4d-4cc7-9f2a-032c81e42fb9",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1ee57c40-5a73-46b0-9846-4c22d5b4cdda",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "169c43d9-9ecf-41fd-acd4-95e1703f1d10",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "32bd3cdf-65b4-4960-bd49-46f843874b8a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1b832488-605b-449d-b37f-7dc165154dc0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "aa7f5e49-ecf7-47d5-a113-2c553f677f2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "755b7f71-5990-41d7-913e-5ea91f819a8d",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8b86ac6e-2276-4ac6-9879-d76adab20e04",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a83d02b7-b905-4079-8061-d4ef82f71691",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "caaf1dd4-4e7a-4fb5-bf19-152a0b9bc99b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a71da9fc-391d-40e4-954a-ab51eb30b664",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4761e4c2-5dec-4589-b088-a4d52c781197",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "15fc9f82-98dc-45d4-bd3c-98d7d2afd328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a1eb99a2-abfa-47b5-b469-bbe6d90212b5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4fa6ad96-3261-47da-9f29-c301725c1470",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c398bb06-0e50-4932-94b1-c12942a92ef2",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8d02ad8c-73ba-4f5b-9b19-6d5a441a686b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3f6b549f-1b52-4561-8633-f5e2f70c44f0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1fe0e318-0a32-4396-9241-80d8c76bfb90",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "521d4e88-cec8-4d68-9003-aa05f16e8bad",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "ccfeaa5d-0509-4f69-9ad3-7a78599d917e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "e1a3406f-7760-4646-9e4f-e5b6ba80687b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5766d78e-29c9-4e11-9d99-68adf0b067f1",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a186e6aa-3de0-4318-9a8f-e7b35efe4ad7",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a8f3750-143d-40d0-873f-d8af385e3773",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a56ac8e-7d2d-481e-9407-5af3c4248bde",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "103d80ba-7588-46e3-83d9-2e02f65a9c85",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "843fbd7e-35ed-4ed0-a58c-bc9543fb7e2b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "2a570a5e-bd30-4b6e-b9a3-28c5e02be2aa",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cce135dc-1a4d-497d-8ada-3462d207d328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4eaea82a-7437-4f11-92af-0c4307bc6d2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4b5c602a-6105-48d4-9318-d37c27ba1209",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c8e757e0-2acd-4bb7-908c-e9520be45c53",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "63903603-2418-4005-8d57-a8f3ef40c26c",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5944ba75-3fb7-461e-950f-99c06eb04e47",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3ce6557d-8b49-4d22-aca0-79e4de828e4e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9b5a61dc-29cc-4cfb-b2d8-60e135598d2a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "0cd0cd12-4e8e-4553-a38a-aba6643ba622",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "d3811524-efef-4baf-bb57-1dbda2520480",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cd4b1dda-77f9-47d1-9882-ee97b56da856",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a8b9ac75-d92c-4855-b108-58bf7111fc40",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9e1e8a59-d773-4b94-a644-0aa647ab88ce",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5686bbe5-3986-4a73-9f15-05ba566c6789",
+               "widgets": [],
+               "selected": false
+            }
+         ],
+         "afec8acd-bd79-495c-9838-fdfd98beba87": [
+            {
+               "id": "8934f615-1c5b-4ec0-8ce5-26acb9dfc4c5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "947ccd2e-af4d-4cc7-9f2a-032c81e42fb9",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1ee57c40-5a73-46b0-9846-4c22d5b4cdda",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "169c43d9-9ecf-41fd-acd4-95e1703f1d10",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "32bd3cdf-65b4-4960-bd49-46f843874b8a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1b832488-605b-449d-b37f-7dc165154dc0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "aa7f5e49-ecf7-47d5-a113-2c553f677f2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "755b7f71-5990-41d7-913e-5ea91f819a8d",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8b86ac6e-2276-4ac6-9879-d76adab20e04",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a83d02b7-b905-4079-8061-d4ef82f71691",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "caaf1dd4-4e7a-4fb5-bf19-152a0b9bc99b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a71da9fc-391d-40e4-954a-ab51eb30b664",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4761e4c2-5dec-4589-b088-a4d52c781197",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "15fc9f82-98dc-45d4-bd3c-98d7d2afd328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a1eb99a2-abfa-47b5-b469-bbe6d90212b5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4fa6ad96-3261-47da-9f29-c301725c1470",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c398bb06-0e50-4932-94b1-c12942a92ef2",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8d02ad8c-73ba-4f5b-9b19-6d5a441a686b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3f6b549f-1b52-4561-8633-f5e2f70c44f0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1fe0e318-0a32-4396-9241-80d8c76bfb90",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "521d4e88-cec8-4d68-9003-aa05f16e8bad",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "ccfeaa5d-0509-4f69-9ad3-7a78599d917e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "e1a3406f-7760-4646-9e4f-e5b6ba80687b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5766d78e-29c9-4e11-9d99-68adf0b067f1",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a186e6aa-3de0-4318-9a8f-e7b35efe4ad7",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a8f3750-143d-40d0-873f-d8af385e3773",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a56ac8e-7d2d-481e-9407-5af3c4248bde",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "103d80ba-7588-46e3-83d9-2e02f65a9c85",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "843fbd7e-35ed-4ed0-a58c-bc9543fb7e2b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "2a570a5e-bd30-4b6e-b9a3-28c5e02be2aa",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cce135dc-1a4d-497d-8ada-3462d207d328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4eaea82a-7437-4f11-92af-0c4307bc6d2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4b5c602a-6105-48d4-9318-d37c27ba1209",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c8e757e0-2acd-4bb7-908c-e9520be45c53",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "63903603-2418-4005-8d57-a8f3ef40c26c",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5944ba75-3fb7-461e-950f-99c06eb04e47",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3ce6557d-8b49-4d22-aca0-79e4de828e4e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9b5a61dc-29cc-4cfb-b2d8-60e135598d2a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "0cd0cd12-4e8e-4553-a38a-aba6643ba622",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "d3811524-efef-4baf-bb57-1dbda2520480",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cd4b1dda-77f9-47d1-9882-ee97b56da856",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a8b9ac75-d92c-4855-b108-58bf7111fc40",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9e1e8a59-d773-4b94-a644-0aa647ab88ce",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5686bbe5-3986-4a73-9f15-05ba566c6789",
+               "widgets": [],
+               "selected": false
+            }
+         ],
+         "97c7dbc2-f1bd-4ded-8d06-c9b34cf2a2f7": [
+            {
+               "id": "8934f615-1c5b-4ec0-8ce5-26acb9dfc4c5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "947ccd2e-af4d-4cc7-9f2a-032c81e42fb9",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1ee57c40-5a73-46b0-9846-4c22d5b4cdda",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "169c43d9-9ecf-41fd-acd4-95e1703f1d10",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "32bd3cdf-65b4-4960-bd49-46f843874b8a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1b832488-605b-449d-b37f-7dc165154dc0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "aa7f5e49-ecf7-47d5-a113-2c553f677f2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "755b7f71-5990-41d7-913e-5ea91f819a8d",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8b86ac6e-2276-4ac6-9879-d76adab20e04",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a83d02b7-b905-4079-8061-d4ef82f71691",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "caaf1dd4-4e7a-4fb5-bf19-152a0b9bc99b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a71da9fc-391d-40e4-954a-ab51eb30b664",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4761e4c2-5dec-4589-b088-a4d52c781197",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "15fc9f82-98dc-45d4-bd3c-98d7d2afd328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a1eb99a2-abfa-47b5-b469-bbe6d90212b5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4fa6ad96-3261-47da-9f29-c301725c1470",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c398bb06-0e50-4932-94b1-c12942a92ef2",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8d02ad8c-73ba-4f5b-9b19-6d5a441a686b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3f6b549f-1b52-4561-8633-f5e2f70c44f0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1fe0e318-0a32-4396-9241-80d8c76bfb90",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "521d4e88-cec8-4d68-9003-aa05f16e8bad",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "ccfeaa5d-0509-4f69-9ad3-7a78599d917e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "e1a3406f-7760-4646-9e4f-e5b6ba80687b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5766d78e-29c9-4e11-9d99-68adf0b067f1",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a186e6aa-3de0-4318-9a8f-e7b35efe4ad7",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a8f3750-143d-40d0-873f-d8af385e3773",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a56ac8e-7d2d-481e-9407-5af3c4248bde",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "103d80ba-7588-46e3-83d9-2e02f65a9c85",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "843fbd7e-35ed-4ed0-a58c-bc9543fb7e2b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "2a570a5e-bd30-4b6e-b9a3-28c5e02be2aa",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cce135dc-1a4d-497d-8ada-3462d207d328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4eaea82a-7437-4f11-92af-0c4307bc6d2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4b5c602a-6105-48d4-9318-d37c27ba1209",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c8e757e0-2acd-4bb7-908c-e9520be45c53",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "63903603-2418-4005-8d57-a8f3ef40c26c",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5944ba75-3fb7-461e-950f-99c06eb04e47",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3ce6557d-8b49-4d22-aca0-79e4de828e4e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9b5a61dc-29cc-4cfb-b2d8-60e135598d2a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "0cd0cd12-4e8e-4553-a38a-aba6643ba622",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "d3811524-efef-4baf-bb57-1dbda2520480",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cd4b1dda-77f9-47d1-9882-ee97b56da856",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a8b9ac75-d92c-4855-b108-58bf7111fc40",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9e1e8a59-d773-4b94-a644-0aa647ab88ce",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5686bbe5-3986-4a73-9f15-05ba566c6789",
+               "widgets": [],
+               "selected": false
+            }
+         ],
+         "fb79b616-c1d6-4594-914c-2336a7736b9a": [
+            {
+               "id": "8934f615-1c5b-4ec0-8ce5-26acb9dfc4c5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "947ccd2e-af4d-4cc7-9f2a-032c81e42fb9",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1ee57c40-5a73-46b0-9846-4c22d5b4cdda",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "169c43d9-9ecf-41fd-acd4-95e1703f1d10",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "32bd3cdf-65b4-4960-bd49-46f843874b8a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1b832488-605b-449d-b37f-7dc165154dc0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "aa7f5e49-ecf7-47d5-a113-2c553f677f2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "755b7f71-5990-41d7-913e-5ea91f819a8d",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8b86ac6e-2276-4ac6-9879-d76adab20e04",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a83d02b7-b905-4079-8061-d4ef82f71691",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "caaf1dd4-4e7a-4fb5-bf19-152a0b9bc99b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a71da9fc-391d-40e4-954a-ab51eb30b664",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4761e4c2-5dec-4589-b088-a4d52c781197",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "15fc9f82-98dc-45d4-bd3c-98d7d2afd328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a1eb99a2-abfa-47b5-b469-bbe6d90212b5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4fa6ad96-3261-47da-9f29-c301725c1470",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c398bb06-0e50-4932-94b1-c12942a92ef2",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8d02ad8c-73ba-4f5b-9b19-6d5a441a686b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3f6b549f-1b52-4561-8633-f5e2f70c44f0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1fe0e318-0a32-4396-9241-80d8c76bfb90",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "521d4e88-cec8-4d68-9003-aa05f16e8bad",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "ccfeaa5d-0509-4f69-9ad3-7a78599d917e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "e1a3406f-7760-4646-9e4f-e5b6ba80687b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5766d78e-29c9-4e11-9d99-68adf0b067f1",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a186e6aa-3de0-4318-9a8f-e7b35efe4ad7",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a8f3750-143d-40d0-873f-d8af385e3773",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a56ac8e-7d2d-481e-9407-5af3c4248bde",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "103d80ba-7588-46e3-83d9-2e02f65a9c85",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "843fbd7e-35ed-4ed0-a58c-bc9543fb7e2b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "2a570a5e-bd30-4b6e-b9a3-28c5e02be2aa",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cce135dc-1a4d-497d-8ada-3462d207d328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4eaea82a-7437-4f11-92af-0c4307bc6d2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4b5c602a-6105-48d4-9318-d37c27ba1209",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c8e757e0-2acd-4bb7-908c-e9520be45c53",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "63903603-2418-4005-8d57-a8f3ef40c26c",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5944ba75-3fb7-461e-950f-99c06eb04e47",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3ce6557d-8b49-4d22-aca0-79e4de828e4e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9b5a61dc-29cc-4cfb-b2d8-60e135598d2a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "0cd0cd12-4e8e-4553-a38a-aba6643ba622",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "d3811524-efef-4baf-bb57-1dbda2520480",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cd4b1dda-77f9-47d1-9882-ee97b56da856",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a8b9ac75-d92c-4855-b108-58bf7111fc40",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9e1e8a59-d773-4b94-a644-0aa647ab88ce",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5686bbe5-3986-4a73-9f15-05ba566c6789",
+               "widgets": [],
+               "selected": false
+            }
+         ],
+         "a8a5c235-fb5f-4886-8c47-4cf0c92750f1": [
+            {
+               "id": "8934f615-1c5b-4ec0-8ce5-26acb9dfc4c5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "947ccd2e-af4d-4cc7-9f2a-032c81e42fb9",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1ee57c40-5a73-46b0-9846-4c22d5b4cdda",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "169c43d9-9ecf-41fd-acd4-95e1703f1d10",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "32bd3cdf-65b4-4960-bd49-46f843874b8a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1b832488-605b-449d-b37f-7dc165154dc0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "aa7f5e49-ecf7-47d5-a113-2c553f677f2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "755b7f71-5990-41d7-913e-5ea91f819a8d",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8b86ac6e-2276-4ac6-9879-d76adab20e04",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a83d02b7-b905-4079-8061-d4ef82f71691",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "caaf1dd4-4e7a-4fb5-bf19-152a0b9bc99b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a71da9fc-391d-40e4-954a-ab51eb30b664",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4761e4c2-5dec-4589-b088-a4d52c781197",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "15fc9f82-98dc-45d4-bd3c-98d7d2afd328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a1eb99a2-abfa-47b5-b469-bbe6d90212b5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4fa6ad96-3261-47da-9f29-c301725c1470",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c398bb06-0e50-4932-94b1-c12942a92ef2",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8d02ad8c-73ba-4f5b-9b19-6d5a441a686b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3f6b549f-1b52-4561-8633-f5e2f70c44f0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1fe0e318-0a32-4396-9241-80d8c76bfb90",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "521d4e88-cec8-4d68-9003-aa05f16e8bad",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "ccfeaa5d-0509-4f69-9ad3-7a78599d917e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "e1a3406f-7760-4646-9e4f-e5b6ba80687b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5766d78e-29c9-4e11-9d99-68adf0b067f1",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a186e6aa-3de0-4318-9a8f-e7b35efe4ad7",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a8f3750-143d-40d0-873f-d8af385e3773",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a56ac8e-7d2d-481e-9407-5af3c4248bde",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "103d80ba-7588-46e3-83d9-2e02f65a9c85",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "843fbd7e-35ed-4ed0-a58c-bc9543fb7e2b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "2a570a5e-bd30-4b6e-b9a3-28c5e02be2aa",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cce135dc-1a4d-497d-8ada-3462d207d328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4eaea82a-7437-4f11-92af-0c4307bc6d2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4b5c602a-6105-48d4-9318-d37c27ba1209",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c8e757e0-2acd-4bb7-908c-e9520be45c53",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "63903603-2418-4005-8d57-a8f3ef40c26c",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5944ba75-3fb7-461e-950f-99c06eb04e47",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3ce6557d-8b49-4d22-aca0-79e4de828e4e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9b5a61dc-29cc-4cfb-b2d8-60e135598d2a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "0cd0cd12-4e8e-4553-a38a-aba6643ba622",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "d3811524-efef-4baf-bb57-1dbda2520480",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cd4b1dda-77f9-47d1-9882-ee97b56da856",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a8b9ac75-d92c-4855-b108-58bf7111fc40",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9e1e8a59-d773-4b94-a644-0aa647ab88ce",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5686bbe5-3986-4a73-9f15-05ba566c6789",
+               "widgets": [],
+               "selected": false
+            }
+         ],
+         "b883f7f0-03e9-4d46-8375-98d4b055f6bb": [
+            {
+               "id": "8934f615-1c5b-4ec0-8ce5-26acb9dfc4c5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "947ccd2e-af4d-4cc7-9f2a-032c81e42fb9",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1ee57c40-5a73-46b0-9846-4c22d5b4cdda",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "169c43d9-9ecf-41fd-acd4-95e1703f1d10",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "32bd3cdf-65b4-4960-bd49-46f843874b8a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1b832488-605b-449d-b37f-7dc165154dc0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "aa7f5e49-ecf7-47d5-a113-2c553f677f2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "755b7f71-5990-41d7-913e-5ea91f819a8d",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8b86ac6e-2276-4ac6-9879-d76adab20e04",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a83d02b7-b905-4079-8061-d4ef82f71691",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "caaf1dd4-4e7a-4fb5-bf19-152a0b9bc99b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a71da9fc-391d-40e4-954a-ab51eb30b664",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4761e4c2-5dec-4589-b088-a4d52c781197",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "15fc9f82-98dc-45d4-bd3c-98d7d2afd328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a1eb99a2-abfa-47b5-b469-bbe6d90212b5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4fa6ad96-3261-47da-9f29-c301725c1470",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c398bb06-0e50-4932-94b1-c12942a92ef2",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8d02ad8c-73ba-4f5b-9b19-6d5a441a686b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3f6b549f-1b52-4561-8633-f5e2f70c44f0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1fe0e318-0a32-4396-9241-80d8c76bfb90",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "521d4e88-cec8-4d68-9003-aa05f16e8bad",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "ccfeaa5d-0509-4f69-9ad3-7a78599d917e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "e1a3406f-7760-4646-9e4f-e5b6ba80687b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5766d78e-29c9-4e11-9d99-68adf0b067f1",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a186e6aa-3de0-4318-9a8f-e7b35efe4ad7",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a8f3750-143d-40d0-873f-d8af385e3773",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a56ac8e-7d2d-481e-9407-5af3c4248bde",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "103d80ba-7588-46e3-83d9-2e02f65a9c85",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "843fbd7e-35ed-4ed0-a58c-bc9543fb7e2b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "2a570a5e-bd30-4b6e-b9a3-28c5e02be2aa",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cce135dc-1a4d-497d-8ada-3462d207d328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4eaea82a-7437-4f11-92af-0c4307bc6d2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4b5c602a-6105-48d4-9318-d37c27ba1209",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c8e757e0-2acd-4bb7-908c-e9520be45c53",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "63903603-2418-4005-8d57-a8f3ef40c26c",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5944ba75-3fb7-461e-950f-99c06eb04e47",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3ce6557d-8b49-4d22-aca0-79e4de828e4e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9b5a61dc-29cc-4cfb-b2d8-60e135598d2a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "0cd0cd12-4e8e-4553-a38a-aba6643ba622",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "d3811524-efef-4baf-bb57-1dbda2520480",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cd4b1dda-77f9-47d1-9882-ee97b56da856",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a8b9ac75-d92c-4855-b108-58bf7111fc40",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9e1e8a59-d773-4b94-a644-0aa647ab88ce",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5686bbe5-3986-4a73-9f15-05ba566c6789",
+               "widgets": [],
+               "selected": false
+            }
+         ],
+         "5a712367-dd30-4018-a501-59e5fda89e1e": [
+            {
+               "id": "8934f615-1c5b-4ec0-8ce5-26acb9dfc4c5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "947ccd2e-af4d-4cc7-9f2a-032c81e42fb9",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1ee57c40-5a73-46b0-9846-4c22d5b4cdda",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "169c43d9-9ecf-41fd-acd4-95e1703f1d10",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "32bd3cdf-65b4-4960-bd49-46f843874b8a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1b832488-605b-449d-b37f-7dc165154dc0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "aa7f5e49-ecf7-47d5-a113-2c553f677f2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "755b7f71-5990-41d7-913e-5ea91f819a8d",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8b86ac6e-2276-4ac6-9879-d76adab20e04",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a83d02b7-b905-4079-8061-d4ef82f71691",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "caaf1dd4-4e7a-4fb5-bf19-152a0b9bc99b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a71da9fc-391d-40e4-954a-ab51eb30b664",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4761e4c2-5dec-4589-b088-a4d52c781197",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "15fc9f82-98dc-45d4-bd3c-98d7d2afd328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a1eb99a2-abfa-47b5-b469-bbe6d90212b5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4fa6ad96-3261-47da-9f29-c301725c1470",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c398bb06-0e50-4932-94b1-c12942a92ef2",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8d02ad8c-73ba-4f5b-9b19-6d5a441a686b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3f6b549f-1b52-4561-8633-f5e2f70c44f0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1fe0e318-0a32-4396-9241-80d8c76bfb90",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "521d4e88-cec8-4d68-9003-aa05f16e8bad",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "ccfeaa5d-0509-4f69-9ad3-7a78599d917e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "e1a3406f-7760-4646-9e4f-e5b6ba80687b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5766d78e-29c9-4e11-9d99-68adf0b067f1",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a186e6aa-3de0-4318-9a8f-e7b35efe4ad7",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a8f3750-143d-40d0-873f-d8af385e3773",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a56ac8e-7d2d-481e-9407-5af3c4248bde",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "103d80ba-7588-46e3-83d9-2e02f65a9c85",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "843fbd7e-35ed-4ed0-a58c-bc9543fb7e2b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "2a570a5e-bd30-4b6e-b9a3-28c5e02be2aa",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cce135dc-1a4d-497d-8ada-3462d207d328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4eaea82a-7437-4f11-92af-0c4307bc6d2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4b5c602a-6105-48d4-9318-d37c27ba1209",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c8e757e0-2acd-4bb7-908c-e9520be45c53",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "63903603-2418-4005-8d57-a8f3ef40c26c",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5944ba75-3fb7-461e-950f-99c06eb04e47",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3ce6557d-8b49-4d22-aca0-79e4de828e4e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9b5a61dc-29cc-4cfb-b2d8-60e135598d2a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "0cd0cd12-4e8e-4553-a38a-aba6643ba622",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "d3811524-efef-4baf-bb57-1dbda2520480",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cd4b1dda-77f9-47d1-9882-ee97b56da856",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a8b9ac75-d92c-4855-b108-58bf7111fc40",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9e1e8a59-d773-4b94-a644-0aa647ab88ce",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5686bbe5-3986-4a73-9f15-05ba566c6789",
+               "widgets": [],
+               "selected": false
+            }
+         ],
+         "b0e93158-7b93-460e-9ec0-5e981301262c": [
+            {
+               "id": "8934f615-1c5b-4ec0-8ce5-26acb9dfc4c5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "947ccd2e-af4d-4cc7-9f2a-032c81e42fb9",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1ee57c40-5a73-46b0-9846-4c22d5b4cdda",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "169c43d9-9ecf-41fd-acd4-95e1703f1d10",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "32bd3cdf-65b4-4960-bd49-46f843874b8a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1b832488-605b-449d-b37f-7dc165154dc0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "aa7f5e49-ecf7-47d5-a113-2c553f677f2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "755b7f71-5990-41d7-913e-5ea91f819a8d",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8b86ac6e-2276-4ac6-9879-d76adab20e04",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a83d02b7-b905-4079-8061-d4ef82f71691",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "caaf1dd4-4e7a-4fb5-bf19-152a0b9bc99b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a71da9fc-391d-40e4-954a-ab51eb30b664",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4761e4c2-5dec-4589-b088-a4d52c781197",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "15fc9f82-98dc-45d4-bd3c-98d7d2afd328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a1eb99a2-abfa-47b5-b469-bbe6d90212b5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4fa6ad96-3261-47da-9f29-c301725c1470",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c398bb06-0e50-4932-94b1-c12942a92ef2",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8d02ad8c-73ba-4f5b-9b19-6d5a441a686b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3f6b549f-1b52-4561-8633-f5e2f70c44f0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1fe0e318-0a32-4396-9241-80d8c76bfb90",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "521d4e88-cec8-4d68-9003-aa05f16e8bad",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "ccfeaa5d-0509-4f69-9ad3-7a78599d917e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "e1a3406f-7760-4646-9e4f-e5b6ba80687b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5766d78e-29c9-4e11-9d99-68adf0b067f1",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a186e6aa-3de0-4318-9a8f-e7b35efe4ad7",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a8f3750-143d-40d0-873f-d8af385e3773",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a56ac8e-7d2d-481e-9407-5af3c4248bde",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "103d80ba-7588-46e3-83d9-2e02f65a9c85",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "843fbd7e-35ed-4ed0-a58c-bc9543fb7e2b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "2a570a5e-bd30-4b6e-b9a3-28c5e02be2aa",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cce135dc-1a4d-497d-8ada-3462d207d328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4eaea82a-7437-4f11-92af-0c4307bc6d2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4b5c602a-6105-48d4-9318-d37c27ba1209",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c8e757e0-2acd-4bb7-908c-e9520be45c53",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "63903603-2418-4005-8d57-a8f3ef40c26c",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5944ba75-3fb7-461e-950f-99c06eb04e47",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3ce6557d-8b49-4d22-aca0-79e4de828e4e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9b5a61dc-29cc-4cfb-b2d8-60e135598d2a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "0cd0cd12-4e8e-4553-a38a-aba6643ba622",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "d3811524-efef-4baf-bb57-1dbda2520480",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cd4b1dda-77f9-47d1-9882-ee97b56da856",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a8b9ac75-d92c-4855-b108-58bf7111fc40",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9e1e8a59-d773-4b94-a644-0aa647ab88ce",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5686bbe5-3986-4a73-9f15-05ba566c6789",
+               "widgets": [],
+               "selected": false
+            }
+         ],
+         "65472f88-a2cc-41c8-8251-e7b3b5d35c87": [
+            {
+               "id": "8934f615-1c5b-4ec0-8ce5-26acb9dfc4c5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "947ccd2e-af4d-4cc7-9f2a-032c81e42fb9",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1ee57c40-5a73-46b0-9846-4c22d5b4cdda",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "169c43d9-9ecf-41fd-acd4-95e1703f1d10",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "32bd3cdf-65b4-4960-bd49-46f843874b8a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1b832488-605b-449d-b37f-7dc165154dc0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "aa7f5e49-ecf7-47d5-a113-2c553f677f2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "755b7f71-5990-41d7-913e-5ea91f819a8d",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8b86ac6e-2276-4ac6-9879-d76adab20e04",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a83d02b7-b905-4079-8061-d4ef82f71691",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "caaf1dd4-4e7a-4fb5-bf19-152a0b9bc99b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a71da9fc-391d-40e4-954a-ab51eb30b664",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4761e4c2-5dec-4589-b088-a4d52c781197",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "15fc9f82-98dc-45d4-bd3c-98d7d2afd328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a1eb99a2-abfa-47b5-b469-bbe6d90212b5",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4fa6ad96-3261-47da-9f29-c301725c1470",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c398bb06-0e50-4932-94b1-c12942a92ef2",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "8d02ad8c-73ba-4f5b-9b19-6d5a441a686b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3f6b549f-1b52-4561-8633-f5e2f70c44f0",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "1fe0e318-0a32-4396-9241-80d8c76bfb90",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "521d4e88-cec8-4d68-9003-aa05f16e8bad",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "ccfeaa5d-0509-4f69-9ad3-7a78599d917e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "e1a3406f-7760-4646-9e4f-e5b6ba80687b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5766d78e-29c9-4e11-9d99-68adf0b067f1",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a186e6aa-3de0-4318-9a8f-e7b35efe4ad7",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a8f3750-143d-40d0-873f-d8af385e3773",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "6a56ac8e-7d2d-481e-9407-5af3c4248bde",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "103d80ba-7588-46e3-83d9-2e02f65a9c85",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "843fbd7e-35ed-4ed0-a58c-bc9543fb7e2b",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "2a570a5e-bd30-4b6e-b9a3-28c5e02be2aa",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cce135dc-1a4d-497d-8ada-3462d207d328",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4eaea82a-7437-4f11-92af-0c4307bc6d2e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "4b5c602a-6105-48d4-9318-d37c27ba1209",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "c8e757e0-2acd-4bb7-908c-e9520be45c53",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "63903603-2418-4005-8d57-a8f3ef40c26c",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5944ba75-3fb7-461e-950f-99c06eb04e47",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "3ce6557d-8b49-4d22-aca0-79e4de828e4e",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9b5a61dc-29cc-4cfb-b2d8-60e135598d2a",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "0cd0cd12-4e8e-4553-a38a-aba6643ba622",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "d3811524-efef-4baf-bb57-1dbda2520480",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "cd4b1dda-77f9-47d1-9882-ee97b56da856",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "a8b9ac75-d92c-4855-b108-58bf7111fc40",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "9e1e8a59-d773-4b94-a644-0aa647ab88ce",
+               "widgets": [],
+               "selected": false
+            },
+            {
+               "id": "5686bbe5-3986-4a73-9f15-05ba566c6789",
+               "widgets": [],
+               "selected": false
+            }
+         ]
+      },
+      "widgetInteractions": [
+         {
+            "widgetIdProvider": "5a712367-dd30-4018-a501-59e5fda89e1e",
+            "type": "resourceId",
+            "widgetIdReceiver": "b883f7f0-03e9-4d46-8375-98d4b055f6bb"
+         },
+         {
+            "widgetIdProvider": "5a712367-dd30-4018-a501-59e5fda89e1e",
+            "type": "resourceId",
+            "widgetIdReceiver": "bd34e351-13c2-4b1d-88e7-2b36babb3393"
+         },
+         {
+            "widgetIdProvider": "b883f7f0-03e9-4d46-8375-98d4b055f6bb",
+            "type": "metricId",
+            "widgetIdReceiver": "bd34e351-13c2-4b1d-88e7-2b36babb3393"
+         }
+      ]
+   }],
+   "uuid": "e271fcc2-3efd-45c7-a5cb-de6ffa2b079d"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Use DT to determine when High Volume of Crashed Apps Occur&#10;&#10;Ops Metrics:HM9000.HM9000.NumberOfCrashedInstances" id="AlertDefinition-f01aa4fd-dcb4-40f7-9618-1629c9437e3d" name="PCF HM9000 - Too Many Crashed Instances" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-ffd94fa7-4675-4092-ae73-e4d1cee6e799"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-ffd94fa7-4675-4092-ae73-e4d1cee6e799" name="PCF HM9K NumOfCrashedAIs" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="HM9000:HM9000 index:0 ip:192.168.8.36|THROUGHPUT|Number of crashed instances" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

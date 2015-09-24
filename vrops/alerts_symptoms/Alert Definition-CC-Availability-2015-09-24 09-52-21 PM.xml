@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" description="Track the Availability or health of the CloudController&#10;&#10;Ops Metrics:healthy" id="AlertDefinition-a49a926a-00e7-404c-8c9c-a416bdd5a4a1" name="PCF CC - Availability" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-05d4250c-80f3-4b50-b564-5d0371faf926"/>
+                    <Symptom ref="SymptomDefinition-9a2c5b36-7542-4d7e-997b-ce011cbc5194"/>
+                    <Symptom ref="SymptomDefinition-c48ccc36-951f-48fc-9d8c-2ac8cb1968ef"/>
+                    <Symptom ref="SymptomDefinition-0e995ab0-76f8-4c15-bd87-25dbc0d7f145"/>
+                    <Symptom ref="SymptomDefinition-a924be30-66a6-4ba0-a8ef-5fc70ce9bd8c"/>
+                    <Symptom ref="SymptomDefinition-29723f32-8b4f-426e-94ba-ee69a6f6bc95"/>
+                    <Symptom ref="SymptomDefinition-55d00a6d-bd4a-4bbc-8cbd-35b270802aec"/>
+                    <Symptom ref="SymptomDefinition-ceb68085-ab89-4b63-ab84-05a8cdcc798f"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ceb68085-ab89-4b63-ab84-05a8cdcc798f" name="PCF CC ip 192.168.8.74 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="CloudController:CloudController index:1 ip:192.168.8.74|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-29723f32-8b4f-426e-94ba-ee69a6f6bc95" name="PCF CC ip 192.168.8.93 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="CloudController:CloudController index:1 ip:192.168.8.93|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-9a2c5b36-7542-4d7e-997b-ce011cbc5194" name="PCF CC ip 192.168.8.34 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="CloudController:CloudController index:0 ip:192.168.8.34|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-55d00a6d-bd4a-4bbc-8cbd-35b270802aec" name="PCF CC ip 192.168.8.76 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="CloudController:CloudController index:1 ip:192.168.8.76|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a924be30-66a6-4ba0-a8ef-5fc70ce9bd8c" name="PCF CC ip 192.168.8.63 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="CloudController:CloudController index:1 ip:192.168.8.63|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-0e995ab0-76f8-4c15-bd87-25dbc0d7f145" name="PCF CC ip 192.168.8.33 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="CloudController:CloudController index:0 ip:192.168.8.33|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-05d4250c-80f3-4b50-b564-5d0371faf926" name="PCF CC ip 192.168.8.31 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="CloudController:CloudController index:0 ip:192.168.8.31|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c48ccc36-951f-48fc-9d8c-2ac8cb1968ef" name="PCF CC ip 192.168.8.32 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="CloudController:CloudController index:0 ip:192.168.8.32|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="DT alert on abnormal route total.&#10;&#10;Ops Metrics:router.total_routes" id="AlertDefinition-7b6b3c3f-478f-4048-b616-670d42f745f0" name="PCF RTR - Total Routes" resourceKind="Pivotal CloudFoundry 1.5.x" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-c62caafc-bd8d-483f-a80b-3b7412079ca9"/>
+                    <Symptom ref="SymptomDefinition-d31df71a-8bdf-4fc4-a325-23653f6d82e6"/>
+                    <Symptom ref="SymptomDefinition-3852ecfb-6b09-464a-920e-c8064ab3d29b"/>
+                    <Symptom ref="SymptomDefinition-a23d54e9-b912-40f2-9a4b-225c193a90ed"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a23d54e9-b912-40f2-9a4b-225c193a90ed" name="PCF RTR ip 192.168.8.11 Total Routes Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.11|THROUGHPUT|Routing: Total Routes" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d31df71a-8bdf-4fc4-a325-23653f6d82e6" name="PCF RTR ip 192.168.8.14 Total Routes Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.14|THROUGHPUT|Routing: Total Routes" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c62caafc-bd8d-483f-a80b-3b7412079ca9" name="PCF RTR ip 192.168.8.12 Total Routes Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.12|THROUGHPUT|Routing: Total Routes" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3852ecfb-6b09-464a-920e-c8064ab3d29b" name="PCF RTR ip 192.168.8.13 Total Routes Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="critical">
+                <Condition key="Router:Router index:0 ip:192.168.8.13|THROUGHPUT|Routing: Total Routes" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

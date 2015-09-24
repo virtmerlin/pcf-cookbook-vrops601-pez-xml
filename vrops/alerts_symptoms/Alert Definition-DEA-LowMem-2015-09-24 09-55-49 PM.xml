@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Alerts when the ratio of available memory is below 40%&#10;&#10;Ops Metrics:available_memory_ratio" id="AlertDefinition-0e8ed2fc-4b1d-4aa5-bfcc-9b2b30d59423" name="PCF DEA - Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-5a4899ac-9b6f-4d02-9b41-2e20ed1fa63c"/>
+                    <Symptom ref="SymptomDefinition-bb445298-a5fd-4871-9384-b12fb555998d"/>
+                    <Symptom ref="SymptomDefinition-a92f687f-3a71-43f4-a1da-bebc7ddc839d"/>
+                    <Symptom ref="SymptomDefinition-163d7fdf-e7dd-4e39-88c3-caf4d7beef3c"/>
+                    <Symptom ref="SymptomDefinition-b2d71999-5b1b-4d98-ad47-28cbcc473d71"/>
+                    <Symptom ref="SymptomDefinition-a5cc9b6c-5585-4cd3-9212-48d2db42b6d1"/>
+                    <Symptom ref="SymptomDefinition-7a569d41-183f-45aa-aa17-be01101ff4c3"/>
+                    <Symptom ref="SymptomDefinition-daad743d-2b2a-4365-b814-5cf82be4fa5b"/>
+                    <Symptom ref="SymptomDefinition-481af7cb-fe56-4112-b224-9fa9c257dbdf"/>
+                    <Symptom ref="SymptomDefinition-5203da80-dd2d-4b62-9d9a-41cd1bc12de9"/>
+                    <Symptom ref="SymptomDefinition-76e8f5d9-98ae-4b33-9398-d6b0f70b0477"/>
+                    <Symptom ref="SymptomDefinition-c38aa1d4-eb8b-4f09-9fb4-8d01233763be"/>
+                    <Symptom ref="SymptomDefinition-ac3f88a7-e48d-438f-b201-dceed0e10fc1"/>
+                    <Symptom ref="SymptomDefinition-0cc0c269-a955-4a34-8132-288f74d1a4f5"/>
+                    <Symptom ref="SymptomDefinition-81536f44-d087-46e7-8d80-8f158e59a07f"/>
+                    <Symptom ref="SymptomDefinition-177d7499-c9ae-42ad-b394-39954f561f60"/>
+                    <Symptom ref="SymptomDefinition-a98e6106-8973-4273-ab55-d2246fcd5060"/>
+                    <Symptom ref="SymptomDefinition-920b49d5-f103-4846-a0d2-fab36c049dce"/>
+                    <Symptom ref="SymptomDefinition-33010582-b748-447a-8a3c-33c352821cc8"/>
+                    <Symptom ref="SymptomDefinition-6f44f120-659d-4db2-9a1b-204fc5264337"/>
+                    <Symptom ref="SymptomDefinition-e1bd4e88-a13d-4c52-bd87-6b97899ede2f"/>
+                    <Symptom ref="SymptomDefinition-f6618256-c419-43ae-b4bb-142e9fd9231c"/>
+                    <Symptom ref="SymptomDefinition-fc701754-b04f-402e-8b40-d292193857f4"/>
+                    <Symptom ref="SymptomDefinition-b67e1113-f042-464c-91b6-a78a35c391bb"/>
+                    <Symptom ref="SymptomDefinition-209d13cb-417f-47f2-bce6-5ad78ebaab90"/>
+                    <Symptom ref="SymptomDefinition-e3e6e204-1f5a-4da4-a0a7-121c4840fb09"/>
+                    <Symptom ref="SymptomDefinition-af1a5063-e8ec-4623-a52b-94e8a2633241"/>
+                    <Symptom ref="SymptomDefinition-ccafd066-74f6-4354-8d28-fc50ff5a6ad7"/>
+                    <Symptom ref="SymptomDefinition-5cd822e9-e711-43d5-89bd-6e2b04f62f6f"/>
+                    <Symptom ref="SymptomDefinition-11ac06d6-e1db-462a-a83d-e27a9f18baa4"/>
+                    <Symptom ref="SymptomDefinition-bc912f6a-9b9a-4254-b711-b7096b6579f3"/>
+                    <Symptom ref="SymptomDefinition-a25b956b-862e-4efe-be89-869d6f71fac9"/>
+                    <Symptom ref="SymptomDefinition-bdd92231-2c06-4b7f-8b34-69a42b9bf401"/>
+                    <Symptom ref="SymptomDefinition-fc7b25e3-6f32-4fe9-97d8-79be907dac3a"/>
+                    <Symptom ref="SymptomDefinition-f8f4b990-19ce-4eda-841c-e7a512e6a1a9"/>
+                    <Symptom ref="SymptomDefinition-008f8d9c-d6cc-4183-a00d-3c67ff2888b3"/>
+                    <Symptom ref="SymptomDefinition-01d5b668-3b17-4d58-8b2e-b45cbe5958ad"/>
+                    <Symptom ref="SymptomDefinition-4e1bb577-38ff-4183-a28d-3e42758c9666"/>
+                    <Symptom ref="SymptomDefinition-d172f7a4-19c4-4a38-88f9-9aacb5ce2d74"/>
+                    <Symptom ref="SymptomDefinition-129e1141-0829-472a-92d0-d6d189366edf"/>
+                    <Symptom ref="SymptomDefinition-3369eca7-9684-4bc0-a4f6-4de28b65e6b3"/>
+                    <Symptom ref="SymptomDefinition-dfa9a7e7-29fe-4586-b3c2-92adc901d2b0"/>
+                    <Symptom ref="SymptomDefinition-548a2b90-02e6-458d-8360-a3482cfcfc7e"/>
+                    <Symptom ref="SymptomDefinition-9e475fe8-7063-4671-bee3-ca4eb28eb09d"/>
+                    <Symptom ref="SymptomDefinition-5695d5a9-149b-433e-8f76-5d2ab1ce77bf"/>
+                    <Symptom ref="SymptomDefinition-38da4e2f-4832-4664-8641-ed60c39ae4a8"/>
+                    <Symptom ref="SymptomDefinition-fc68399b-454c-4662-85d5-1d78b5aa210e"/>
+                    <Symptom ref="SymptomDefinition-4b8951d3-0212-4150-ad03-9a67971182e0"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-9e475fe8-7063-4671-bee3-ca4eb28eb09d" name="PCF DEA ip 192.168.8.108 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.108|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a92f687f-3a71-43f4-a1da-bebc7ddc839d" name="PCF DEA ip 192.168.8.116 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.116|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b2d71999-5b1b-4d98-ad47-28cbcc473d71" name="PCF DEA ip 192.168.9.31 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.31|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-163d7fdf-e7dd-4e39-88c3-caf4d7beef3c" name="PCF DEA ip 192.168.9.25 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.9.25|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5cd822e9-e711-43d5-89bd-6e2b04f62f6f" name="PCF DEA ip 192.168.8.186 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.186|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-dfa9a7e7-29fe-4586-b3c2-92adc901d2b0" name="PCF DEA ip 192.168.8.61 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.61|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-01d5b668-3b17-4d58-8b2e-b45cbe5958ad" name="PCF DEA ip 192.168.9.34 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.34|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4e1bb577-38ff-4183-a28d-3e42758c9666" name="PCF DEA ip 192.168.9.20 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.20|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-fc701754-b04f-402e-8b40-d292193857f4" name="PCF DEA ip 192.168.8.100 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.100|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-fc68399b-454c-4662-85d5-1d78b5aa210e" name="PCF DEA ip 192.168.8.102 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.102|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ac3f88a7-e48d-438f-b201-dceed0e10fc1" name="PCF DEA ip 192.168.8.95 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.95|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-f6618256-c419-43ae-b4bb-142e9fd9231c" name="PCF DEA ip 192.168.8.101 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.101|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-920b49d5-f103-4846-a0d2-fab36c049dce" name="PCF DEA ip 192.168.8.97 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.97|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3369eca7-9684-4bc0-a4f6-4de28b65e6b3" name="PCF DEA ip 192.168.8.185 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.185|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e1bd4e88-a13d-4c52-bd87-6b97899ede2f" name="PCF DEA ip 192.168.8.113 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.113|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-6f44f120-659d-4db2-9a1b-204fc5264337" name="PCF DEA ip 192.168.8.111 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.111|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-008f8d9c-d6cc-4183-a00d-3c67ff2888b3" name="PCF DEA ip 192.168.8.109 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.109|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5a4899ac-9b6f-4d02-9b41-2e20ed1fa63c" name="PCF DEA ip 192.168.8.114 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.114|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-548a2b90-02e6-458d-8360-a3482cfcfc7e" name="PCF DEA ip 192.168.9.15 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.15|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a25b956b-862e-4efe-be89-869d6f71fac9" name="PCF DEA ip 192.168.9.26 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.26|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-481af7cb-fe56-4112-b224-9fa9c257dbdf" name="PCF DEA ip 192.168.9.17 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.17|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ccafd066-74f6-4354-8d28-fc50ff5a6ad7" name="PCF DEA ip 192.168.8.105 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.105|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-af1a5063-e8ec-4623-a52b-94e8a2633241" name="PCF DEA ip 192.168.8.104 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.104|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5203da80-dd2d-4b62-9d9a-41cd1bc12de9" name="PCF DEA ip 192.168.8.107 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.107|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bc912f6a-9b9a-4254-b711-b7096b6579f3" name="PCF DEA ip 192.168.9.30 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.30|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7a569d41-183f-45aa-aa17-be01101ff4c3" name="PCF DEA ip 192.168.8.96 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.96|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-33010582-b748-447a-8a3c-33c352821cc8" name="PCF DEA ip 192.168.8.62 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.62|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bdd92231-2c06-4b7f-8b34-69a42b9bf401" name="PCF DEA ip 192.168.9.23 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.23|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-11ac06d6-e1db-462a-a83d-e27a9f18baa4" name="PCF DEA ip 192.168.8.94 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.94|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e3e6e204-1f5a-4da4-a0a7-121c4840fb09" name="PCF DEA ip 192.168.9.29 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.29|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-0cc0c269-a955-4a34-8132-288f74d1a4f5" name="PCF DEA ip 192.168.8.79 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.79|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a5cc9b6c-5585-4cd3-9212-48d2db42b6d1" name="PCF DEA ip 192.168.9.19 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.19|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5695d5a9-149b-433e-8f76-5d2ab1ce77bf" name="PCF DEA ip 192.168.8.99 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.99|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-daad743d-2b2a-4365-b814-5cf82be4fa5b" name="PCF DEA ip 192.168.8.103 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.103|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a98e6106-8973-4273-ab55-d2246fcd5060" name="PCF DEA ip 192.168.8.112 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.112|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-129e1141-0829-472a-92d0-d6d189366edf" name="PCF DEA ip 192.168.8.115 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.115|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-209d13cb-417f-47f2-bce6-5ad78ebaab90" name="PCF DEA ip 192.168.8.184 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.184|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bb445298-a5fd-4871-9384-b12fb555998d" name="PCF DEA ip 192.168.8.110 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.110|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-38da4e2f-4832-4664-8641-ed60c39ae4a8" name="PCF DEA ip 192.168.8.98 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.98|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b67e1113-f042-464c-91b6-a78a35c391bb" name="PCF DEA ip 192.168.8.106 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.106|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-fc7b25e3-6f32-4fe9-97d8-79be907dac3a" name="PCF DEA ip 192.168.9.28 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.28|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-f8f4b990-19ce-4eda-841c-e7a512e6a1a9" name="PCF DEA ip 192.168.9.33 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.33|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-81536f44-d087-46e7-8d80-8f158e59a07f" name="PCF DEA ip 192.168.9.16 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.9.16|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c38aa1d4-eb8b-4f09-9fb4-8d01233763be" name="PCF DEA ip 192.168.9.22 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.22|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-76e8f5d9-98ae-4b33-9398-d6b0f70b0477" name="PCF DEA ip 192.168.8.64 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.64|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4b8951d3-0212-4150-ad03-9a67971182e0" name="PCF DEA ip 192.168.9.32 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.32|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d172f7a4-19c4-4a38-88f9-9aacb5ce2d74" name="PCF DEA ip 192.168.9.21 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.21|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-177d7499-c9ae-42ad-b394-39954f561f60" name="PCF DEA ip 192.168.9.18 Low Available Memory" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.18|THROUGHPUT|Avaliable Memory Ratio" operator="&lt;" type="htmetric" value="0.4" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

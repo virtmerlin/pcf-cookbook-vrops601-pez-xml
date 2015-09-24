@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="2" description="A go router is experiencing high latency " id="AlertDefinition-9f4be02e-a317-4270-8303-9a2bcfc1972c" name="PCF RTR - High Latency" resourceKind="Pivotal CloudFoundry 1.5.x" subType="19" type="15" waitCycle="2">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-de63ba1f-1cbc-413e-9304-bfea093b89c2"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="2" id="SymptomDefinition-de63ba1f-1cbc-413e-9304-bfea093b89c2" name="PCF RTR Latency 90th High" resourceKind="Pivotal CloudFoundry 1.5.x" waitCycle="2">
+            <State severity="info">
+                <Condition key="Super Metric|sm_9f298ae8-827c-48a2-8593-dca613ee193d" operator="above" type="dtsuper"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

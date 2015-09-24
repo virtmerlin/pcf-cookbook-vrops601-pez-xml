@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Alert on DEA when unavailable&#10;&#10;Ops Metrics:health" id="AlertDefinition-a8cf7cf5-3f1a-47c7-8b00-53feaa6d42be" name="PCF DEA - Availability" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-7af849f7-d4cd-4574-94e2-fd5d7b7b109e"/>
+                    <Symptom ref="SymptomDefinition-eee04f1a-e268-4c14-913d-feade773e7d9"/>
+                    <Symptom ref="SymptomDefinition-c8d398e1-19e8-4aa1-b3de-417829549303"/>
+                    <Symptom ref="SymptomDefinition-cbdd2e4c-4761-4358-b540-33e896f670e3"/>
+                    <Symptom ref="SymptomDefinition-c8ed5be8-e849-4a4d-916f-9d0337bc1837"/>
+                    <Symptom ref="SymptomDefinition-e8fb1ac6-9829-4677-ad3d-0894aa48a6db"/>
+                    <Symptom ref="SymptomDefinition-0e3b6ad5-e0ff-4804-bac9-07ce320ba7dc"/>
+                    <Symptom ref="SymptomDefinition-b490798e-54e3-413a-bbf1-4be8915ee930"/>
+                    <Symptom ref="SymptomDefinition-63bc8b0c-abff-4ce7-9066-241835ccf4b4"/>
+                    <Symptom ref="SymptomDefinition-5e343017-6797-4d30-8f1e-b27171b6f949"/>
+                    <Symptom ref="SymptomDefinition-5250afa9-69ae-4442-8aff-eb1b324ec5d9"/>
+                    <Symptom ref="SymptomDefinition-5ce6dcae-9521-4071-be03-6347988ea473"/>
+                    <Symptom ref="SymptomDefinition-5d2436c1-a587-413f-9f5a-1a5bd7769a4f"/>
+                    <Symptom ref="SymptomDefinition-9beebd17-0362-4b3d-834c-c1fa6697fd51"/>
+                    <Symptom ref="SymptomDefinition-94be5d22-d47a-42c5-93d3-9aef46e5d25d"/>
+                    <Symptom ref="SymptomDefinition-1f101282-fa45-4979-a0c5-a5744b26b194"/>
+                    <Symptom ref="SymptomDefinition-771e1df7-8f00-41ea-a255-b5116d37d698"/>
+                    <Symptom ref="SymptomDefinition-db9520c7-f8f9-42de-9697-77dfe8b9c68f"/>
+                    <Symptom ref="SymptomDefinition-3d00f684-5059-40d3-8126-aaee738db286"/>
+                    <Symptom ref="SymptomDefinition-185fb84d-f0e1-418f-91f8-8d1ca4d43ba1"/>
+                    <Symptom ref="SymptomDefinition-98a54943-4393-48d4-8d55-165510b76fbd"/>
+                    <Symptom ref="SymptomDefinition-2b21632b-cd09-4f94-ab1e-c92e44e2f49e"/>
+                    <Symptom ref="SymptomDefinition-332ac602-2bad-4133-925f-b5135ed16428"/>
+                    <Symptom ref="SymptomDefinition-26d65c6d-eb07-4e9d-b0ae-f1137bd81c66"/>
+                    <Symptom ref="SymptomDefinition-c32aaa8f-72d1-45ab-9a89-f130de2737e6"/>
+                    <Symptom ref="SymptomDefinition-7d4edd3b-5ba5-4f72-ba9a-a1b3cd0a0cdf"/>
+                    <Symptom ref="SymptomDefinition-382b8efb-df3a-4232-8333-8ad0c4299720"/>
+                    <Symptom ref="SymptomDefinition-69e207f7-af2e-4f0b-8554-8ad4800313ae"/>
+                    <Symptom ref="SymptomDefinition-b900830a-27b3-4325-9b21-c7cbf5796a08"/>
+                    <Symptom ref="SymptomDefinition-d1bdecc9-3dad-4f43-88a0-7a0a9375b1f8"/>
+                    <Symptom ref="SymptomDefinition-31c68dc1-bad2-4071-82d4-b11c522f5346"/>
+                    <Symptom ref="SymptomDefinition-e50db89f-3534-4df1-85ad-95800909ba21"/>
+                    <Symptom ref="SymptomDefinition-3730e4d6-7333-4beb-924c-a4a6e5445653"/>
+                    <Symptom ref="SymptomDefinition-64e1164a-4941-43b0-ad1d-484146b72105"/>
+                    <Symptom ref="SymptomDefinition-721a01b6-57c7-4a14-8d33-c0c74ff55d68"/>
+                    <Symptom ref="SymptomDefinition-72c44b04-5652-4b27-a810-254f75bfe0e2"/>
+                    <Symptom ref="SymptomDefinition-248b25f1-ee35-4e05-a884-b313fb515e6e"/>
+                    <Symptom ref="SymptomDefinition-af8f0e48-2765-4f2f-ae2d-817e56f23022"/>
+                    <Symptom ref="SymptomDefinition-94910413-ce66-46e8-bc3b-f3e6ad4e3540"/>
+                    <Symptom ref="SymptomDefinition-0c74a2e0-5b75-4252-9c08-0f2410219a39"/>
+                    <Symptom ref="SymptomDefinition-5cd5e4c7-b009-4a9a-817c-d7f6d14cbb4a"/>
+                    <Symptom ref="SymptomDefinition-9a91c76a-acbc-40b6-873e-3da2e8a98368"/>
+                    <Symptom ref="SymptomDefinition-90b7104f-f220-404d-afce-85da6342b54a"/>
+                    <Symptom ref="SymptomDefinition-f86f45ca-4feb-472e-8193-58e4fe834b53"/>
+                    <Symptom ref="SymptomDefinition-4bef2f9d-252f-40fa-9738-df57109cc185"/>
+                    <Symptom ref="SymptomDefinition-79c15f39-f1bd-4c05-8aed-287c06023700"/>
+                    <Symptom ref="SymptomDefinition-79a13014-4d7b-448b-8b5e-a20893e18c42"/>
+                    <Symptom ref="SymptomDefinition-96365e5d-1ff6-4810-8ac8-a5c2d281e3ec"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-31c68dc1-bad2-4071-82d4-b11c522f5346" name="PCF DEA ip 192.168.9.17 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.17|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-db9520c7-f8f9-42de-9697-77dfe8b9c68f" name="PCF DEA ip 192.168.9.19 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.19|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-69e207f7-af2e-4f0b-8554-8ad4800313ae" name="PCF DEA ip 192.168.9.25 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.9.25|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e50db89f-3534-4df1-85ad-95800909ba21" name="PCF DEA ip 192.168.8.184 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.184|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-79c15f39-f1bd-4c05-8aed-287c06023700" name="PCF DEA ip 192.168.8.62 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.62|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-0c74a2e0-5b75-4252-9c08-0f2410219a39" name="PCF DEA ip 192.168.8.103 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.103|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-eee04f1a-e268-4c14-913d-feade773e7d9" name="PCF DEA ip 192.168.9.33 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.33|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-771e1df7-8f00-41ea-a255-b5116d37d698" name="PCF DEA ip 192.168.8.95 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.95|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-332ac602-2bad-4133-925f-b5135ed16428" name="PCF DEA ip 192.168.8.116 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.116|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-cbdd2e4c-4761-4358-b540-33e896f670e3" name="PCF DEA ip 192.168.8.186 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.186|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-64e1164a-4941-43b0-ad1d-484146b72105" name="PCF DEA ip 192.168.9.29 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.29|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-72c44b04-5652-4b27-a810-254f75bfe0e2" name="PCF DEA ip 192.168.8.110 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.110|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c8d398e1-19e8-4aa1-b3de-417829549303" name="PCF DEA ip 192.168.8.185 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.185|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-98a54943-4393-48d4-8d55-165510b76fbd" name="PCF DEA ip 192.168.8.101 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.101|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-90b7104f-f220-404d-afce-85da6342b54a" name="PCF DEA ip 192.168.8.79 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.79|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-0e3b6ad5-e0ff-4804-bac9-07ce320ba7dc" name="PCF DEA ip 192.168.8.111 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.111|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4bef2f9d-252f-40fa-9738-df57109cc185" name="PCF DEA ip 192.168.9.20 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.20|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-79a13014-4d7b-448b-8b5e-a20893e18c42" name="PCF DEA ip 192.168.9.16 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.9.16|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3730e4d6-7333-4beb-924c-a4a6e5445653" name="PCF DEA ip 192.168.8.106 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.106|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b490798e-54e3-413a-bbf1-4be8915ee930" name="PCF DEA ip 192.168.8.108 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.108|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-185fb84d-f0e1-418f-91f8-8d1ca4d43ba1" name="PCF DEA ip 192.168.8.114 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.114|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-f86f45ca-4feb-472e-8193-58e4fe834b53" name="PCF DEA ip 192.168.9.31 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.31|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7af849f7-d4cd-4574-94e2-fd5d7b7b109e" name="PCF DEA ip 192.168.8.61 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.61|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-af8f0e48-2765-4f2f-ae2d-817e56f23022" name="PCF DEA ip 192.168.8.115 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.115|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3d00f684-5059-40d3-8126-aaee738db286" name="PCF DEA ip 192.168.8.105 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.105|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-382b8efb-df3a-4232-8333-8ad0c4299720" name="PCF DEA ip 192.168.9.21 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.21|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b900830a-27b3-4325-9b21-c7cbf5796a08" name="PCF DEA ip 192.168.8.102 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.102|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5ce6dcae-9521-4071-be03-6347988ea473" name="PCF DEA ip 192.168.8.99 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.99|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d1bdecc9-3dad-4f43-88a0-7a0a9375b1f8" name="PCF DEA ip 192.168.8.112 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.112|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-26d65c6d-eb07-4e9d-b0ae-f1137bd81c66" name="PCF DEA ip 192.168.9.30 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.30|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e8fb1ac6-9829-4677-ad3d-0894aa48a6db" name="PCF DEA ip 192.168.9.15 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.15|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-9a91c76a-acbc-40b6-873e-3da2e8a98368" name="PCF DEA ip 192.168.8.113 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.113|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5d2436c1-a587-413f-9f5a-1a5bd7769a4f" name="PCF DEA ip 192.168.8.104 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.104|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c8ed5be8-e849-4a4d-916f-9d0337bc1837" name="PCF DEA ip 192.168.8.96 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.96|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-63bc8b0c-abff-4ce7-9066-241835ccf4b4" name="PCF DEA ip 192.168.9.22 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.22|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-721a01b6-57c7-4a14-8d33-c0c74ff55d68" name="PCF DEA ip 192.168.9.28 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.28|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5e343017-6797-4d30-8f1e-b27171b6f949" name="PCF DEA ip 192.168.8.97 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.97|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-1f101282-fa45-4979-a0c5-a5744b26b194" name="PCF DEA ip 192.168.9.18 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.18|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-248b25f1-ee35-4e05-a884-b313fb515e6e" name="PCF DEA ip 192.168.9.26 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.26|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5250afa9-69ae-4442-8aff-eb1b324ec5d9" name="PCF DEA ip 192.168.9.23 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.23|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c32aaa8f-72d1-45ab-9a89-f130de2737e6" name="PCF DEA ip 192.168.8.109 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.109|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-2b21632b-cd09-4f94-ab1e-c92e44e2f49e" name="PCF DEA ip 192.168.8.107 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.107|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7d4edd3b-5ba5-4f72-ba9a-a1b3cd0a0cdf" name="PCF DEA ip 192.168.9.32 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.32|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5cd5e4c7-b009-4a9a-817c-d7f6d14cbb4a" name="PCF DEA ip 192.168.9.34 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.34|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-9beebd17-0362-4b3d-834c-c1fa6697fd51" name="PCF DEA ip 192.168.8.98 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.98|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-94be5d22-d47a-42c5-93d3-9aef46e5d25d" name="PCF DEA ip 192.168.8.64 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.64|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-96365e5d-1ff6-4810-8ac8-a5c2d281e3ec" name="PCF DEA ip 192.168.8.94 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.94|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-94910413-ce66-46e8-bc3b-f3e6ad4e3540" name="PCF DEA ip 192.168.8.100 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.100|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

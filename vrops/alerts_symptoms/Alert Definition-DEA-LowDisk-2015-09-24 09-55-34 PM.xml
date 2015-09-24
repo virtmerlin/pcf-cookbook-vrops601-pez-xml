@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Alert when Disk space is below 30% Free&#10;&#10;Ops Metrics:available_disk_ratio" id="AlertDefinition-abef8b43-d58b-4a88-ae88-d46c080f4777" name="PCF DEA - Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-6150e958-6418-4c2a-bdd7-a16c63f88051"/>
+                    <Symptom ref="SymptomDefinition-7bfc4565-9229-4a18-a27f-e4facc46bdf4"/>
+                    <Symptom ref="SymptomDefinition-fac1ea26-385b-42c3-b206-5bac3a303fe9"/>
+                    <Symptom ref="SymptomDefinition-8601f44d-6d09-4a58-a720-dd8d12b2db80"/>
+                    <Symptom ref="SymptomDefinition-7a1d8a51-2271-48f5-91fa-b9e65e45fe3d"/>
+                    <Symptom ref="SymptomDefinition-8fce01e2-fd02-4b38-bfac-7ddc3995ac34"/>
+                    <Symptom ref="SymptomDefinition-01f22808-6b7d-4890-95a6-1c775c03f398"/>
+                    <Symptom ref="SymptomDefinition-d034b867-e1f1-4649-9469-b66f1ba06ef5"/>
+                    <Symptom ref="SymptomDefinition-88f8e094-6cc4-432a-921c-d4d859c4ba47"/>
+                    <Symptom ref="SymptomDefinition-56297f8b-06d0-41c4-820c-dc14c1f63e87"/>
+                    <Symptom ref="SymptomDefinition-9e39caea-4d3c-42ce-85a5-57941119d745"/>
+                    <Symptom ref="SymptomDefinition-3a1f8b17-31bd-4815-beab-9292e7fa45b3"/>
+                    <Symptom ref="SymptomDefinition-ade5a4d6-4343-484b-8289-25b9e4d1c439"/>
+                    <Symptom ref="SymptomDefinition-3fd3f2b8-8626-4cd4-a268-cf0d784f1a79"/>
+                    <Symptom ref="SymptomDefinition-ee3fcfbc-4133-4326-a08a-103cb2059f03"/>
+                    <Symptom ref="SymptomDefinition-54913f99-fe0e-4ed8-bb9e-486679bc576d"/>
+                    <Symptom ref="SymptomDefinition-579d1b67-7b35-4d78-8f0c-1cc84b1f3571"/>
+                    <Symptom ref="SymptomDefinition-735cecf9-c3c6-46dd-acf7-7c10d6d127de"/>
+                    <Symptom ref="SymptomDefinition-62fdd6f7-63fa-4eba-b943-e80fea6b41bd"/>
+                    <Symptom ref="SymptomDefinition-18089a30-4314-4ec6-ba81-e420e5f4a35d"/>
+                    <Symptom ref="SymptomDefinition-af20ed66-02b7-48eb-a977-c45b9f453e5f"/>
+                    <Symptom ref="SymptomDefinition-d722a6e5-530f-4870-a18f-6e185c272744"/>
+                    <Symptom ref="SymptomDefinition-cdfeb039-3179-4949-9d1c-4d64f409ae54"/>
+                    <Symptom ref="SymptomDefinition-0130c1b1-fedf-43a8-ad20-95d6e3421e72"/>
+                    <Symptom ref="SymptomDefinition-c52bc438-7e2c-46f2-8e97-c22be666c153"/>
+                    <Symptom ref="SymptomDefinition-018f1ff8-d202-4f92-b2f3-73b53761b298"/>
+                    <Symptom ref="SymptomDefinition-3569c3a4-23e2-4f9a-b154-8866cca85077"/>
+                    <Symptom ref="SymptomDefinition-86579838-2efe-418a-97f2-e02b8258feb3"/>
+                    <Symptom ref="SymptomDefinition-27474c7a-26ef-4798-ac17-813b6371b616"/>
+                    <Symptom ref="SymptomDefinition-88a71de0-f7fd-45cf-8bf0-013418d57438"/>
+                    <Symptom ref="SymptomDefinition-26ac3185-1adb-4080-b281-bd2a77ce574f"/>
+                    <Symptom ref="SymptomDefinition-c62b9049-641f-4cd2-a15c-655bc1946154"/>
+                    <Symptom ref="SymptomDefinition-7d5dfb91-cf31-4d2c-b6dc-bfa68d266ec7"/>
+                    <Symptom ref="SymptomDefinition-27679e71-bb31-4766-9727-4d0644456b5b"/>
+                    <Symptom ref="SymptomDefinition-bc7c5ebc-9235-4228-83e6-2d63d02988f6"/>
+                    <Symptom ref="SymptomDefinition-41665ce9-1738-4520-a414-ec7c49a716fd"/>
+                    <Symptom ref="SymptomDefinition-b7d5ab2b-d8c1-48bc-8783-581b3ab95d88"/>
+                    <Symptom ref="SymptomDefinition-ebebcce9-aaff-4973-b67f-99680a3bbcfe"/>
+                    <Symptom ref="SymptomDefinition-cf7b0e12-4338-46ef-83bf-899e3f8dbd9e"/>
+                    <Symptom ref="SymptomDefinition-628ed303-ea5b-41dc-b934-374e85f30d61"/>
+                    <Symptom ref="SymptomDefinition-3360d8e4-0871-4805-b8d0-1d34a77707b6"/>
+                    <Symptom ref="SymptomDefinition-d0798bb9-ff88-4c4c-a5df-89b55f0fae6e"/>
+                    <Symptom ref="SymptomDefinition-2d46f207-c619-494b-a12c-56e63748d789"/>
+                    <Symptom ref="SymptomDefinition-506d508b-f288-49d7-815d-699cd30d15c0"/>
+                    <Symptom ref="SymptomDefinition-0a06f38a-5750-49e4-95ca-df7ce88a64dc"/>
+                    <Symptom ref="SymptomDefinition-ab6ace65-2ae8-469a-9a05-18c897bc5671"/>
+                    <Symptom ref="SymptomDefinition-3ec7ce4a-2e92-42b4-a753-bf0045589c83"/>
+                    <Symptom ref="SymptomDefinition-84759c5a-1790-4422-b600-2c4d69d4b3ec"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-cf7b0e12-4338-46ef-83bf-899e3f8dbd9e" name="PCF DEA ip 192.168.8.98 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.98|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8601f44d-6d09-4a58-a720-dd8d12b2db80" name="PCF DEA ip 192.168.9.30 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.30|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-0130c1b1-fedf-43a8-ad20-95d6e3421e72" name="PCF DEA ip 192.168.8.101 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.101|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-84759c5a-1790-4422-b600-2c4d69d4b3ec" name="PCF DEA ip 192.168.9.18 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.18|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8fce01e2-fd02-4b38-bfac-7ddc3995ac34" name="PCF DEA ip 192.168.9.25 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.9.25|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7a1d8a51-2271-48f5-91fa-b9e65e45fe3d" name="PCF DEA ip 192.168.8.113 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.113|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-54913f99-fe0e-4ed8-bb9e-486679bc576d" name="PCF DEA ip 192.168.8.108 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.108|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-88a71de0-f7fd-45cf-8bf0-013418d57438" name="PCF DEA ip 192.168.9.34 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.34|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d034b867-e1f1-4649-9469-b66f1ba06ef5" name="PCF DEA ip 192.168.9.31 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.31|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3569c3a4-23e2-4f9a-b154-8866cca85077" name="PCF DEA ip 192.168.9.29 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.29|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7d5dfb91-cf31-4d2c-b6dc-bfa68d266ec7" name="PCF DEA ip 192.168.9.16 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.9.16|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c62b9049-641f-4cd2-a15c-655bc1946154" name="PCF DEA ip 192.168.8.114 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.114|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ebebcce9-aaff-4973-b67f-99680a3bbcfe" name="PCF DEA ip 192.168.8.94 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.94|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b7d5ab2b-d8c1-48bc-8783-581b3ab95d88" name="PCF DEA ip 192.168.9.20 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.20|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-62fdd6f7-63fa-4eba-b943-e80fea6b41bd" name="PCF DEA ip 192.168.8.106 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.106|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-628ed303-ea5b-41dc-b934-374e85f30d61" name="PCF DEA ip 192.168.8.102 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.102|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-579d1b67-7b35-4d78-8f0c-1cc84b1f3571" name="PCF DEA ip 192.168.9.19 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.19|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-26ac3185-1adb-4080-b281-bd2a77ce574f" name="PCF DEA ip 192.168.8.110 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.110|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bc7c5ebc-9235-4228-83e6-2d63d02988f6" name="PCF DEA ip 192.168.8.99 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.99|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7bfc4565-9229-4a18-a27f-e4facc46bdf4" name="PCF DEA ip 192.168.8.116 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.116|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-56297f8b-06d0-41c4-820c-dc14c1f63e87" name="PCF DEA ip 192.168.8.107 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.107|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-01f22808-6b7d-4890-95a6-1c775c03f398" name="PCF DEA ip 192.168.8.111 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.111|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c52bc438-7e2c-46f2-8e97-c22be666c153" name="PCF DEA ip 192.168.8.184 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.184|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ab6ace65-2ae8-469a-9a05-18c897bc5671" name="PCF DEA ip 192.168.8.61 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.61|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-9e39caea-4d3c-42ce-85a5-57941119d745" name="PCF DEA ip 192.168.8.185 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.185|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-27474c7a-26ef-4798-ac17-813b6371b616" name="PCF DEA ip 192.168.8.105 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.105|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-18089a30-4314-4ec6-ba81-e420e5f4a35d" name="PCF DEA ip 192.168.8.96 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.96|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ade5a4d6-4343-484b-8289-25b9e4d1c439" name="PCF DEA ip 192.168.9.23 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.23|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3360d8e4-0871-4805-b8d0-1d34a77707b6" name="PCF DEA ip 192.168.8.62 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.62|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d0798bb9-ff88-4c4c-a5df-89b55f0fae6e" name="PCF DEA ip 192.168.8.112 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.112|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-0a06f38a-5750-49e4-95ca-df7ce88a64dc" name="PCF DEA ip 192.168.9.17 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.17|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-27679e71-bb31-4766-9727-4d0644456b5b" name="PCF DEA ip 192.168.9.21 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.21|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-506d508b-f288-49d7-815d-699cd30d15c0" name="PCF DEA ip 192.168.8.103 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.103|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-6150e958-6418-4c2a-bdd7-a16c63f88051" name="PCF DEA ip 192.168.8.100 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.100|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-cdfeb039-3179-4949-9d1c-4d64f409ae54" name="PCF DEA ip 192.168.9.22 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.22|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3a1f8b17-31bd-4815-beab-9292e7fa45b3" name="PCF DEA ip 192.168.8.109 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.109|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ee3fcfbc-4133-4326-a08a-103cb2059f03" name="PCF DEA ip 192.168.8.64 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.64|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-2d46f207-c619-494b-a12c-56e63748d789" name="PCF DEA ip 192.168.9.32 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.32|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d722a6e5-530f-4870-a18f-6e185c272744" name="PCF DEA ip 192.168.9.26 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.26|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-af20ed66-02b7-48eb-a977-c45b9f453e5f" name="PCF DEA ip 192.168.8.186 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.186|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-86579838-2efe-418a-97f2-e02b8258feb3" name="PCF DEA ip 192.168.9.15 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.15|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3ec7ce4a-2e92-42b4-a753-bf0045589c83" name="PCF DEA ip 192.168.8.115 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.115|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-fac1ea26-385b-42c3-b206-5bac3a303fe9" name="PCF DEA ip 192.168.9.28 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.28|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-88f8e094-6cc4-432a-921c-d4d859c4ba47" name="PCF DEA ip 192.168.8.95 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.95|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3fd3f2b8-8626-4cd4-a268-cf0d784f1a79" name="PCF DEA ip 192.168.8.79 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.79|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-41665ce9-1738-4520-a414-ec7c49a716fd" name="PCF DEA ip 192.168.8.104 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.104|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-018f1ff8-d202-4f92-b2f3-73b53761b298" name="PCF DEA ip 192.168.8.97 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.97|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-735cecf9-c3c6-46dd-acf7-7c10d6d127de" name="PCF DEA ip 192.168.9.33 Low Available Disk" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.33|THROUGHPUT|Avaliable Disk Ratio" operator="&lt;" type="htmetric" value="0.3" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

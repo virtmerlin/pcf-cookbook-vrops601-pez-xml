@@ -1,0 +1,151 @@
+{
+  "dashboardSections": [
+    {
+      "views": [
+        {
+          "name": "PEZ Heritage DashBoard",
+          "constraints": [],
+          "rows": [
+            {
+              "widgets": [
+                {
+                  "widgetType": "chart",
+                  "chartOptions": "{\"logaxis\":false,\"spline\":false}",
+                  "name": "Successful Login OKTA",
+                  "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"SAMLDefaultLogger\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"EVENTS\",\"fieldConstraints\":[{\"internalName\":\"text\",\"value\":\"AuthNResponse;SUCCESS\",\"operator\":\"CONTAINS\"}],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1432758724580,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432845124579,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}",
+                  "info": ""
+                },
+                {
+                  "widgetType": "chart",
+                  "chartOptions": "{\"logaxis\":false,\"spline\":false}",
+                  "name": "Successful Login UAA+OKTA",
+                  "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"INFO \\u2014 RemoteUaaAuthenticationManager\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"EVENTS\",\"fieldConstraints\":[{\"internalName\":\"text\",\"value\":\"Successful\",\"operator\":\"CONTAINS\"}],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1432758768488,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432845168515,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}",
+                  "info": ""
+                }
+              ]
+            },
+            {
+              "widgets": [
+                {
+                  "chartType": "line",
+                  "widgetType": "chart",
+                  "chartOptions": "{\"logaxis\":false,\"spline\":true}",
+                  "name": "Staging Tasks Completed",
+                  "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"staging_task\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"EVENTS\",\"fieldConstraints\":[{\"internalName\":\"text\",\"value\":\"staging.task.completed\",\"operator\":\"CONTAINS\"}],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1429300519236,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432832338192,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}",
+                  "info": ""
+                },
+                {
+                  "chartType": "line",
+                  "widgetType": "chart",
+                  "chartOptions": "{\"logaxis\":false,\"spline\":true}",
+                  "name": "Staging Tasks Failed",
+                  "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"staging_task\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"EVENTS\",\"fieldConstraints\":[{\"internalName\":\"text\",\"value\":\"staging.task.failed\",\"operator\":\"CONTAINS\"}],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1429300519236,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432832338192,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}",
+                  "info": ""
+                },
+                {
+                  "chartType": "line",
+                  "widgetType": "chart",
+                  "chartOptions": "{\"logaxis\":false,\"spline\":true}",
+                  "name": "Staging Tasks Failed on Upload",
+                  "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"staging_task\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"EVENTS\",\"fieldConstraints\":[{\"internalName\":\"text\",\"value\":\"staging.task.upload-failed\",\"operator\":\"CONTAINS\"}],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1429300519236,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432832338192,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}",
+                  "info": ""
+                }
+              ]
+            },
+            {
+              "widgets": [
+                {
+                  "chartType": "area",
+                  "widgetType": "chart",
+                  "chartOptions": "{\"logaxis\":false,\"spline\":true}",
+                  "name": "Doppler Errors",
+                  "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"Doppler*\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"EVENTS\",\"fieldConstraints\":[{\"internalName\":\"text\",\"value\":\"error\",\"operator\":\"CONTAINS\"}],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1429300519236,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432839926645,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}",
+                  "info": ""
+                },
+                {
+                  "chartType": "area",
+                  "widgetType": "chart",
+                  "chartOptions": "{\"logaxis\":false,\"spline\":true}",
+                  "name": "Metron Errors",
+                  "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"Metron*\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"EVENTS\",\"fieldConstraints\":[{\"internalName\":\"text\",\"value\":\"error\",\"operator\":\"CONTAINS\"}],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1429300519236,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432839965485,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}",
+                  "info": ""
+                }
+              ]
+            },
+            {
+              "widgets": [
+                {
+                  "widgetType": "fieldTable",
+                  "messageQuery": "",
+                  "name": "Failed Login Attempts",
+                  "columns": [
+                    {
+                      "internalName": "__li_timestamp_col"
+                    },
+                    {
+                      "internalName": "__li_msg_col"
+                    }
+                  ],
+                  "gridWidth": "1",
+                  "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"UserAuthenticationFailure*\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"FIELD_TABLE\",\"fieldConstraints\":[],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1432755172037,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432841572038,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}",
+                  "info": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "header": ""
+    }
+  ],
+  "alerts": [
+    {
+      "searchPeriod": 300000,
+      "hitCount": 0.0,
+      "hitOperator": "GREATER_THAN",
+      "searchInterval": 300000,
+      "name": "vRops-PEZ-StageOKEvent",
+      "alertType": "RATE_BASED",
+      "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"staging_task\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"EVENTS\",\"fieldConstraints\":[{\"internalName\":\"text\",\"value\":\"staging.task.completed\",\"operator\":\"CONTAINS\"}],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1429300519236,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432833397656,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}"
+    },
+    {
+      "searchPeriod": 300000,
+      "hitCount": 0.0,
+      "hitOperator": "GREATER_THAN",
+      "searchInterval": 300000,
+      "name": "vRops-PEZ-FailedLogin",
+      "alertType": "RATE_BASED",
+      "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"UserAuthenticationFailure*\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"FIELD_TABLE\",\"fieldConstraints\":[],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1432754502878,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432840902877,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}"
+    },
+    {
+      "searchPeriod": 300000,
+      "hitCount": 0.0,
+      "hitOperator": "GREATER_THAN",
+      "searchInterval": 300000,
+      "name": "vRops-PEZ-StageFailed",
+      "alertType": "RATE_BASED",
+      "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"staging_task\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"EVENTS\",\"fieldConstraints\":[{\"internalName\":\"text\",\"value\":\"staging.task.failed\",\"operator\":\"CONTAINS\"}],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1429300519236,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432833397656,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}"
+    },
+    {
+      "searchPeriod": 300000,
+      "hitCount": 0.0,
+      "hitOperator": "GREATER_THAN",
+      "searchInterval": 300000,
+      "name": "vRops-PEZ-StagingFailedOnUpload",
+      "alertType": "RATE_BASED",
+      "chartQuery": "{\"dateFilterPreset\":\"CUSTOM\",\"piqlFunction\":{\"requiresField\":false,\"numericOnly\":false,\"value\":\"COUNT\",\"label\":\"Count\"},\"query\":\"staging_task\",\"groupByFields\":[],\"summarySortOrder\":\"DESC\",\"compareQuerySortOrder\":\"DESC\",\"piqlFunctionField\":null,\"messageViewType\":\"EVENTS\",\"fieldConstraints\":[{\"internalName\":\"text\",\"value\":\"staging.task.upload-failed\",\"operator\":\"CONTAINS\"}],\"constraintToggle\":\"ALL\",\"startTimeMillis\":1429300519236,\"extractedFields\":[],\"eventSortOrder\":\"DESC\",\"supplementalConstraints\":[],\"endTimeMillis\":1432833397656,\"shouldGroupByTime\":true,\"compareQueryOrderBy\":\"SCORE\"}"
+    }
+  ],
+  "name": "PEZ Heritage",
+  "queries": [],
+  "extractedFields": [],
+  "framework": "#9c4",
+  "contentPackId": "pivotal.vrli",
+  "version": "2.4",
+  "namespace": "pivotal.vrli",
+  "icon": "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",
+  "author": "mglynn@pivotal.io",
+  "contentVersion": "1.0",
+  "url": "",
+  "info": "Work In Progress"
+}

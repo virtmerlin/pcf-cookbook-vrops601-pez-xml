@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Alert if reservable stagers is &lt; 2&#10;&#10;Ops Metrics:reservable_stagers" id="AlertDefinition-ac2f4914-8f5f-4cc3-914a-33d54276f4a1" name="PCF DEA - Reservable Stagers Low" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-84494a0a-b285-40ed-bac8-b741fa5f3966"/>
+                    <Symptom ref="SymptomDefinition-5bf8b55f-71c7-4c96-ba99-57c987a60e7a"/>
+                    <Symptom ref="SymptomDefinition-c95d9010-0086-4432-9981-33595b49abb0"/>
+                    <Symptom ref="SymptomDefinition-b1bd7a39-35a6-4ea2-97da-e1e9a75f4cf5"/>
+                    <Symptom ref="SymptomDefinition-c3d4b32c-0c05-463d-b804-9a235a2fd739"/>
+                    <Symptom ref="SymptomDefinition-80bb139c-271f-44c1-9869-d27a8385bf7f"/>
+                    <Symptom ref="SymptomDefinition-3bc5a555-91b1-4ada-9a3c-bc4ec03564a0"/>
+                    <Symptom ref="SymptomDefinition-d4d8ebcf-2d75-4818-99b4-8f01b0182faa"/>
+                    <Symptom ref="SymptomDefinition-c1a2a004-78ed-4356-80d3-8442276aaf3f"/>
+                    <Symptom ref="SymptomDefinition-d014581b-5bb5-4f28-9a8d-526bf47b6a26"/>
+                    <Symptom ref="SymptomDefinition-489b6b8d-3264-4704-aded-53299f8645b3"/>
+                    <Symptom ref="SymptomDefinition-e29485ab-1dac-4468-bd3a-112e1d195ab7"/>
+                    <Symptom ref="SymptomDefinition-116536ce-2518-4709-8d6e-84aa8462c3a6"/>
+                    <Symptom ref="SymptomDefinition-57d090a6-9b3d-4629-9bb7-6cd856b6fbbf"/>
+                    <Symptom ref="SymptomDefinition-5b6ff864-917b-4c74-8cc2-2e1c476c9850"/>
+                    <Symptom ref="SymptomDefinition-7a423b4a-0f84-4b01-9903-aa973e64df08"/>
+                    <Symptom ref="SymptomDefinition-919ca9a2-7297-47f2-a786-b7f8cb589f86"/>
+                    <Symptom ref="SymptomDefinition-7a4dd176-6068-46ef-ae00-ffe66c0751fb"/>
+                    <Symptom ref="SymptomDefinition-6155c0ae-2ab5-4e55-93a8-dcd151e6b57c"/>
+                    <Symptom ref="SymptomDefinition-24aa3ced-cc76-491e-9722-14e6c062cb34"/>
+                    <Symptom ref="SymptomDefinition-424e4947-7ea7-4a06-b38b-9eaa5db56257"/>
+                    <Symptom ref="SymptomDefinition-4036d70f-6f9a-405f-a0b9-5cb1e7af14eb"/>
+                    <Symptom ref="SymptomDefinition-b378e8b5-2f94-445b-9a07-eb586c4d93a4"/>
+                    <Symptom ref="SymptomDefinition-58b799c1-b2e1-4021-8ec6-02f4756603fe"/>
+                    <Symptom ref="SymptomDefinition-fc39a82e-a6db-4622-aa76-d3e09d439674"/>
+                    <Symptom ref="SymptomDefinition-bd6e23e3-436e-49c1-a8f1-76c080c3c2db"/>
+                    <Symptom ref="SymptomDefinition-97ecb9e4-f642-45b9-897c-38c750021f42"/>
+                    <Symptom ref="SymptomDefinition-e22a57fb-3677-4578-a30a-ad48bce80fbb"/>
+                    <Symptom ref="SymptomDefinition-014284e0-0f9a-4882-a598-d05655b9284c"/>
+                    <Symptom ref="SymptomDefinition-83f2babf-a082-4510-8e55-2824c38fc8e9"/>
+                    <Symptom ref="SymptomDefinition-a32ff2ed-cc53-45e2-993b-e4f5150b45a7"/>
+                    <Symptom ref="SymptomDefinition-92dc44cd-e3bc-4149-8be2-10f91d7104bc"/>
+                    <Symptom ref="SymptomDefinition-2257914f-66ea-4bc6-bb9d-8d921102b5d2"/>
+                    <Symptom ref="SymptomDefinition-3778d871-32a4-4328-bff8-c9bc720ef135"/>
+                    <Symptom ref="SymptomDefinition-dd4cd013-bc81-4d09-9333-1e919820ebd6"/>
+                    <Symptom ref="SymptomDefinition-3351ccd5-af0e-4552-929e-41ac20e8ff14"/>
+                    <Symptom ref="SymptomDefinition-896f939e-b13a-4133-8ad3-eaaaeec0c21e"/>
+                    <Symptom ref="SymptomDefinition-90f53932-1802-44bd-bb4e-cae759f78061"/>
+                    <Symptom ref="SymptomDefinition-ef984761-2cc1-439f-b753-5419b43fdbc6"/>
+                    <Symptom ref="SymptomDefinition-3896bf31-2800-42fd-9072-7a339768065b"/>
+                    <Symptom ref="SymptomDefinition-bfaf9a5c-378a-4147-bd26-8992172d2b2b"/>
+                    <Symptom ref="SymptomDefinition-a31c7243-1c94-4a9c-8a6a-7a6b5590c1d7"/>
+                    <Symptom ref="SymptomDefinition-8ba29467-6bbb-4766-a941-f89276cf9654"/>
+                    <Symptom ref="SymptomDefinition-4e9cdde2-7604-4aa2-bce9-0cc40064608f"/>
+                    <Symptom ref="SymptomDefinition-c018fe5c-d179-4b26-b9c6-1e4c2baa5d83"/>
+                    <Symptom ref="SymptomDefinition-a8febb1e-81d7-41df-b7ef-5fc588df819e"/>
+                    <Symptom ref="SymptomDefinition-e458fd50-8164-4fa1-900a-868bb76bcd5d"/>
+                    <Symptom ref="SymptomDefinition-8493aaaf-fe5d-40af-865f-eb996806689f"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-ef984761-2cc1-439f-b753-5419b43fdbc6" name="PCF DEA ip 192.168.9.19 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.19|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-84494a0a-b285-40ed-bac8-b741fa5f3966" name="PCF DEA ip 192.168.8.112 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.112|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-489b6b8d-3264-4704-aded-53299f8645b3" name="PCF DEA ip 192.168.9.17 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.17|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bfaf9a5c-378a-4147-bd26-8992172d2b2b" name="PCF DEA ip 192.168.8.108 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.108|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a8febb1e-81d7-41df-b7ef-5fc588df819e" name="PCF DEA ip 192.168.9.16 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.9.16|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-83f2babf-a082-4510-8e55-2824c38fc8e9" name="PCF DEA ip 192.168.8.105 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.105|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3351ccd5-af0e-4552-929e-41ac20e8ff14" name="PCF DEA ip 192.168.9.30 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.30|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-424e4947-7ea7-4a06-b38b-9eaa5db56257" name="PCF DEA ip 192.168.8.98 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.98|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-97ecb9e4-f642-45b9-897c-38c750021f42" name="PCF DEA ip 192.168.8.102 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.102|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-57d090a6-9b3d-4629-9bb7-6cd856b6fbbf" name="PCF DEA ip 192.168.9.34 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.34|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3896bf31-2800-42fd-9072-7a339768065b" name="PCF DEA ip 192.168.9.28 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.28|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c95d9010-0086-4432-9981-33595b49abb0" name="PCF DEA ip 192.168.9.26 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.26|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4036d70f-6f9a-405f-a0b9-5cb1e7af14eb" name="PCF DEA ip 192.168.8.103 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.103|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-896f939e-b13a-4133-8ad3-eaaaeec0c21e" name="PCF DEA ip 192.168.8.104 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.104|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-58b799c1-b2e1-4021-8ec6-02f4756603fe" name="PCF DEA ip 192.168.8.64 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.64|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-116536ce-2518-4709-8d6e-84aa8462c3a6" name="PCF DEA ip 192.168.8.184 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.184|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e458fd50-8164-4fa1-900a-868bb76bcd5d" name="PCF DEA ip 192.168.8.61 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.61|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-014284e0-0f9a-4882-a598-d05655b9284c" name="PCF DEA ip 192.168.9.21 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.21|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3778d871-32a4-4328-bff8-c9bc720ef135" name="PCF DEA ip 192.168.8.111 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.111|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8493aaaf-fe5d-40af-865f-eb996806689f" name="PCF DEA ip 192.168.8.115 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.115|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c018fe5c-d179-4b26-b9c6-1e4c2baa5d83" name="PCF DEA ip 192.168.9.15 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.15|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7a423b4a-0f84-4b01-9903-aa973e64df08" name="PCF DEA ip 192.168.9.20 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.20|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-2257914f-66ea-4bc6-bb9d-8d921102b5d2" name="PCF DEA ip 192.168.8.186 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.186|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3bc5a555-91b1-4ada-9a3c-bc4ec03564a0" name="PCF DEA ip 192.168.8.95 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.95|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-fc39a82e-a6db-4622-aa76-d3e09d439674" name="PCF DEA ip 192.168.9.23 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.23|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4e9cdde2-7604-4aa2-bce9-0cc40064608f" name="PCF DEA ip 192.168.8.116 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.116|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8ba29467-6bbb-4766-a941-f89276cf9654" name="PCF DEA ip 192.168.9.18 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.18|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-919ca9a2-7297-47f2-a786-b7f8cb589f86" name="PCF DEA ip 192.168.8.185 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.185|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b378e8b5-2f94-445b-9a07-eb586c4d93a4" name="PCF DEA ip 192.168.9.31 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.31|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a31c7243-1c94-4a9c-8a6a-7a6b5590c1d7" name="PCF DEA ip 192.168.9.33 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.33|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b1bd7a39-35a6-4ea2-97da-e1e9a75f4cf5" name="PCF DEA ip 192.168.8.79 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.79|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5bf8b55f-71c7-4c96-ba99-57c987a60e7a" name="PCF DEA ip 192.168.8.94 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.94|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-6155c0ae-2ab5-4e55-93a8-dcd151e6b57c" name="PCF DEA ip 192.168.8.96 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.96|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bd6e23e3-436e-49c1-a8f1-76c080c3c2db" name="PCF DEA ip 192.168.8.97 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.97|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d4d8ebcf-2d75-4818-99b4-8f01b0182faa" name="PCF DEA ip 192.168.8.109 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.109|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5b6ff864-917b-4c74-8cc2-2e1c476c9850" name="PCF DEA ip 192.168.8.114 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.114|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a32ff2ed-cc53-45e2-993b-e4f5150b45a7" name="PCF DEA ip 192.168.8.113 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.113|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7a4dd176-6068-46ef-ae00-ffe66c0751fb" name="PCF DEA ip 192.168.8.101 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.101|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-92dc44cd-e3bc-4149-8be2-10f91d7104bc" name="PCF DEA ip 192.168.9.32 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.32|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c3d4b32c-0c05-463d-b804-9a235a2fd739" name="PCF DEA ip 192.168.9.29 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.29|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-80bb139c-271f-44c1-9869-d27a8385bf7f" name="PCF DEA ip 192.168.8.107 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.107|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c1a2a004-78ed-4356-80d3-8442276aaf3f" name="PCF DEA ip 192.168.8.106 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.106|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e22a57fb-3677-4578-a30a-ad48bce80fbb" name="PCF DEA ip 192.168.8.62 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.62|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-dd4cd013-bc81-4d09-9333-1e919820ebd6" name="PCF DEA ip 192.168.8.99 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.99|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-24aa3ced-cc76-491e-9722-14e6c062cb34" name="PCF DEA ip 192.168.8.100 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.100|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d014581b-5bb5-4f28-9a8d-526bf47b6a26" name="PCF DEA ip 192.168.8.110 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.110|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e29485ab-1dac-4468-bd3a-112e1d195ab7" name="PCF DEA ip 192.168.9.25 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:9 ip:192.168.9.25|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-90f53932-1802-44bd-bb4e-cae759f78061" name="PCF DEA ip 192.168.9.22 Low Reservable Stagers" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="warning">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.22|THROUGHPUT|Reservable Stagers" operator="&lt;" type="htmetric" value="2.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

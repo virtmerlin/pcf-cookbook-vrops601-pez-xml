@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Alert on Doppler Availability&#10;&#10;Ops Metrics:health" id="AlertDefinition-cc2cad5b-9a58-46ed-86c6-50d0079ed33c" name="PCF Doppler - Availability" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-7d1cba72-ef2b-4552-b135-c486d841274a"/>
+                    <Symptom ref="SymptomDefinition-6a5800fc-be17-47de-80f4-18a1032a2528"/>
+                    <Symptom ref="SymptomDefinition-514dd076-4ed7-4cf3-8c86-31d64ef1bf87"/>
+                    <Symptom ref="SymptomDefinition-1ec4602e-6851-4ef1-9e3a-4c06c3d38429"/>
+                    <Symptom ref="SymptomDefinition-f5f83fb9-799f-436a-a0b6-2deab7691805"/>
+                    <Symptom ref="SymptomDefinition-36929f39-c789-464e-819a-3377f35565c8"/>
+                    <Symptom ref="SymptomDefinition-9109bc77-d7c7-404b-9ebc-80ed1dfc0ef2"/>
+                    <Symptom ref="SymptomDefinition-1b3747ad-ffa7-46aa-806c-215bdb1ceded"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-1b3747ad-ffa7-46aa-806c-215bdb1ceded" name="PCF Doppler ip 192.168.9.85 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DopplerServer:DopplerServer index:1 ip:192.168.9.85|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-7d1cba72-ef2b-4552-b135-c486d841274a" name="PCF Doppler ip 192.168.8.68 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DopplerServer:DopplerServer index:0 ip:192.168.8.68|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-9109bc77-d7c7-404b-9ebc-80ed1dfc0ef2" name="PCF Doppler ip 192.168.8.66 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DopplerServer:DopplerServer index:0 ip:192.168.8.66|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-514dd076-4ed7-4cf3-8c86-31d64ef1bf87" name="PCF Doppler ip 192.168.9.86 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DopplerServer:DopplerServer index:1 ip:192.168.9.86|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-36929f39-c789-464e-819a-3377f35565c8" name="PCF Doppler ip 192.168.8.67 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DopplerServer:DopplerServer index:0 ip:192.168.8.67|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-6a5800fc-be17-47de-80f4-18a1032a2528" name="PCF Doppler ip 192.168.9.83 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DopplerServer:DopplerServer index:1 ip:192.168.9.83|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-1ec4602e-6851-4ef1-9e3a-4c06c3d38429" name="PCF Doppler ip 192.168.9.84 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DopplerServer:DopplerServer index:1 ip:192.168.9.84|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-f5f83fb9-799f-436a-a0b6-2deab7691805" name="PCF Doppler ip 192.168.8.65 Availability" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DopplerServer:DopplerServer index:0 ip:192.168.8.65|AVAILABILITY|Availability" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Utilize DT to determine when the number of clean AI has abnormal changes&#10;&#10;Ops Metrics:" id="AlertDefinition-b6a04bde-bc61-4c8e-9f02-473372c9e182" name="PCF HM9000 - Number of Apps w/ All AIs Abnormal" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-348635f1-6ca1-4cb4-8f89-790aec97e394"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" cancelCycle="3" id="SymptomDefinition-348635f1-6ca1-4cb4-8f89-790aec97e394" name="PCF HM9K NumOfAppsAllInstances" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="HM9000:HM9000 index:0 ip:192.168.8.36|THROUGHPUT|Number of Apps with all instances reporting" operator="abnormal" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

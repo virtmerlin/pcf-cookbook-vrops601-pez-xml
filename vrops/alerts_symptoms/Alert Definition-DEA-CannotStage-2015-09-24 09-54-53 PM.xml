@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="HypericApiAdapter" cancelCycle="3" description="Alert if a DEA cannot stage new apps.&#10;&#10;Ops Metrics:can_stage" id="AlertDefinition-42501eb8-7211-44bf-8e66-ffd7c18ce56b" name="PCF DEA - Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-d3de900f-3577-434a-9a8f-241de8f3714d"/>
+                    <Symptom ref="SymptomDefinition-08b52441-aef6-483e-8b9c-fb467046f937"/>
+                    <Symptom ref="SymptomDefinition-4234df01-85e4-4f08-a792-3b4fb7668cfe"/>
+                    <Symptom ref="SymptomDefinition-75ba9d27-0e46-4cb2-ae8c-beb4a1a17c46"/>
+                    <Symptom ref="SymptomDefinition-b22c5236-073d-42bb-9463-e1f9525b67e9"/>
+                    <Symptom ref="SymptomDefinition-9e807276-6696-427a-8f5d-f740cc9f79c8"/>
+                    <Symptom ref="SymptomDefinition-1ce3aea3-322f-438d-a4ca-ca7fdf5adafb"/>
+                    <Symptom ref="SymptomDefinition-e04b192a-aa87-4ad5-b5d5-8b1502435620"/>
+                    <Symptom ref="SymptomDefinition-08d89c71-5063-43cf-9865-93bf9c1bd81b"/>
+                    <Symptom ref="SymptomDefinition-e6166545-b62f-472d-9be7-3ecc466c5e81"/>
+                    <Symptom ref="SymptomDefinition-db31bb2f-63c6-419b-a449-4f66193d4b5b"/>
+                    <Symptom ref="SymptomDefinition-a3d5da14-094f-43eb-b912-bbf560565e50"/>
+                    <Symptom ref="SymptomDefinition-e2a208d4-12f4-4337-b743-13b071e14276"/>
+                    <Symptom ref="SymptomDefinition-b9fa70db-4ab9-47a0-8920-aebddfea09b6"/>
+                    <Symptom ref="SymptomDefinition-118080f2-908e-428d-9c1b-f51e2dd9d7c4"/>
+                    <Symptom ref="SymptomDefinition-8a4affd2-d277-481d-a40b-447185bec22f"/>
+                    <Symptom ref="SymptomDefinition-b86da2b0-1f3a-4875-8f09-2677d9a5cb03"/>
+                    <Symptom ref="SymptomDefinition-c1a25ada-f058-4d21-a88e-fac4648a2de6"/>
+                    <Symptom ref="SymptomDefinition-8012eacc-7d44-4e82-879b-6fc0fd13b8bc"/>
+                    <Symptom ref="SymptomDefinition-eeaee7d8-bcc8-44e9-9581-a9bac1c44425"/>
+                    <Symptom ref="SymptomDefinition-d7c1d95a-789b-4629-8204-51ead9680873"/>
+                    <Symptom ref="SymptomDefinition-baf6ab47-d502-4e16-80e8-ba307bd22f0f"/>
+                    <Symptom ref="SymptomDefinition-e74ac412-f435-4be6-b28d-82e35af6d300"/>
+                    <Symptom ref="SymptomDefinition-a11dcc44-029b-41fb-a9a5-f5df19a79474"/>
+                    <Symptom ref="SymptomDefinition-dae3023b-146d-44b4-83ae-35ecfd341f7c"/>
+                    <Symptom ref="SymptomDefinition-e93c1103-1afb-4a0b-8f25-0ea8f0e671d5"/>
+                    <Symptom ref="SymptomDefinition-b3d0b3f9-9a7d-4ec3-b180-109f8d168930"/>
+                    <Symptom ref="SymptomDefinition-76d1dfd4-8e67-43d1-936b-112b1c09c8b6"/>
+                    <Symptom ref="SymptomDefinition-99a06646-f0f7-4df6-85b2-7bd426a10fa1"/>
+                    <Symptom ref="SymptomDefinition-304509c7-927a-464b-894c-9970b174f00d"/>
+                    <Symptom ref="SymptomDefinition-514a58a4-9791-4439-9d3b-16c01dc4cc02"/>
+                    <Symptom ref="SymptomDefinition-bd8b0089-741b-412c-a8b6-1a62b4009b5c"/>
+                    <Symptom ref="SymptomDefinition-86fda596-56dc-4686-9608-220aad85eb5b"/>
+                    <Symptom ref="SymptomDefinition-04dd76a0-d24c-4ccf-b8e9-e75b3de0eb55"/>
+                    <Symptom ref="SymptomDefinition-eab541d4-a7fa-45da-b494-f9ed11c3cad3"/>
+                    <Symptom ref="SymptomDefinition-5caeecb3-6761-4846-8b4f-a618e23433cb"/>
+                    <Symptom ref="SymptomDefinition-e8371ac3-d6f7-414b-8fa3-49221351b8f7"/>
+                    <Symptom ref="SymptomDefinition-d0183687-09f6-4700-9f37-e57d15b6d498"/>
+                    <Symptom ref="SymptomDefinition-c62b0932-03b9-43c6-8760-a337b98778a5"/>
+                    <Symptom ref="SymptomDefinition-3eb6c379-1710-4dc1-bd5e-45a1fae9e4db"/>
+                    <Symptom ref="SymptomDefinition-0e08e49e-d801-49f4-a8fd-593663de0460"/>
+                    <Symptom ref="SymptomDefinition-6d576be6-3085-4f88-a159-d0ee00dd6244"/>
+                    <Symptom ref="SymptomDefinition-a7ec1f15-5928-4567-9bc9-af8e0984cc47"/>
+                    <Symptom ref="SymptomDefinition-a953b8f4-0f59-4442-b2fc-40dcce2b6fc2"/>
+                    <Symptom ref="SymptomDefinition-5396bb75-08fc-47b2-a00c-cbce4516f2bc"/>
+                    <Symptom ref="SymptomDefinition-bea57103-3741-4745-9213-aa0341f6d124"/>
+                    <Symptom ref="SymptomDefinition-6146141e-1da4-422d-bff1-64f9fe4d5de7"/>
+                    <Symptom ref="SymptomDefinition-4145748d-794b-43ed-bd52-1dbba84440f9"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e6166545-b62f-472d-9be7-3ecc466c5e81" name="PCF DEA ip 192.168.8.100 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.100|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8012eacc-7d44-4e82-879b-6fc0fd13b8bc" name="PCF DEA ip 192.168.8.108 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.108|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bd8b0089-741b-412c-a8b6-1a62b4009b5c" name="PCF DEA ip 192.168.9.17 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.17|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b22c5236-073d-42bb-9463-e1f9525b67e9" name="PCF DEA ip 192.168.8.112 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.112|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-1ce3aea3-322f-438d-a4ca-ca7fdf5adafb" name="PCF DEA ip 192.168.8.98 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.98|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e8371ac3-d6f7-414b-8fa3-49221351b8f7" name="PCF DEA ip 192.168.9.25 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.9.25|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d0183687-09f6-4700-9f37-e57d15b6d498" name="PCF DEA ip 192.168.8.184 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.184|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a7ec1f15-5928-4567-9bc9-af8e0984cc47" name="PCF DEA ip 192.168.8.79 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.79|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a3d5da14-094f-43eb-b912-bbf560565e50" name="PCF DEA ip 192.168.8.109 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.8.109|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b86da2b0-1f3a-4875-8f09-2677d9a5cb03" name="PCF DEA ip 192.168.9.22 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.22|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-6146141e-1da4-422d-bff1-64f9fe4d5de7" name="PCF DEA ip 192.168.8.107 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.107|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5396bb75-08fc-47b2-a00c-cbce4516f2bc" name="PCF DEA ip 192.168.8.111 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.8.111|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e93c1103-1afb-4a0b-8f25-0ea8f0e671d5" name="PCF DEA ip 192.168.9.34 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.34|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-3eb6c379-1710-4dc1-bd5e-45a1fae9e4db" name="PCF DEA ip 192.168.8.101 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.8.101|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-9e807276-6696-427a-8f5d-f740cc9f79c8" name="PCF DEA ip 192.168.8.103 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.103|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-76d1dfd4-8e67-43d1-936b-112b1c09c8b6" name="PCF DEA ip 192.168.9.21 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.21|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d7c1d95a-789b-4629-8204-51ead9680873" name="PCF DEA ip 192.168.8.116 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.116|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-eab541d4-a7fa-45da-b494-f9ed11c3cad3" name="PCF DEA ip 192.168.9.28 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.9.28|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c62b0932-03b9-43c6-8760-a337b98778a5" name="PCF DEA ip 192.168.9.30 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.30|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b9fa70db-4ab9-47a0-8920-aebddfea09b6" name="PCF DEA ip 192.168.9.20 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.20|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e04b192a-aa87-4ad5-b5d5-8b1502435620" name="PCF DEA ip 192.168.8.105 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.105|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-eeaee7d8-bcc8-44e9-9581-a9bac1c44425" name="PCF DEA ip 192.168.9.16 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.9.16|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4234df01-85e4-4f08-a792-3b4fb7668cfe" name="PCF DEA ip 192.168.9.15 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.15|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-514a58a4-9791-4439-9d3b-16c01dc4cc02" name="PCF DEA ip 192.168.8.113 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.113|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-c1a25ada-f058-4d21-a88e-fac4648a2de6" name="PCF DEA ip 192.168.8.104 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.104|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-bea57103-3741-4745-9213-aa0341f6d124" name="PCF DEA ip 192.168.9.32 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:5 ip:192.168.9.32|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-75ba9d27-0e46-4cb2-ae8c-beb4a1a17c46" name="PCF DEA ip 192.168.9.31 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:4 ip:192.168.9.31|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-dae3023b-146d-44b4-83ae-35ecfd341f7c" name="PCF DEA ip 192.168.8.64 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.64|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-99a06646-f0f7-4df6-85b2-7bd426a10fa1" name="PCF DEA ip 192.168.9.19 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.9.19|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-04dd76a0-d24c-4ccf-b8e9-e75b3de0eb55" name="PCF DEA ip 192.168.8.115 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.115|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-08d89c71-5063-43cf-9865-93bf9c1bd81b" name="PCF DEA ip 192.168.8.110 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.110|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-6d576be6-3085-4f88-a159-d0ee00dd6244" name="PCF DEA ip 192.168.8.186 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.186|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-86fda596-56dc-4686-9608-220aad85eb5b" name="PCF DEA ip 192.168.9.18 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.18|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e2a208d4-12f4-4337-b743-13b071e14276" name="PCF DEA ip 192.168.9.33 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.9.33|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-d3de900f-3577-434a-9a8f-241de8f3714d" name="PCF DEA ip 192.168.8.97 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:1 ip:192.168.8.97|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-baf6ab47-d502-4e16-80e8-ba307bd22f0f" name="PCF DEA ip 192.168.8.106 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.8.106|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a11dcc44-029b-41fb-a9a5-f5df19a79474" name="PCF DEA ip 192.168.8.96 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:9 ip:192.168.8.96|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-118080f2-908e-428d-9c1b-f51e2dd9d7c4" name="PCF DEA ip 192.168.8.102 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:6 ip:192.168.8.102|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-4145748d-794b-43ed-bd52-1dbba84440f9" name="PCF DEA ip 192.168.8.185 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:11 ip:192.168.8.185|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-08b52441-aef6-483e-8b9c-fb467046f937" name="PCF DEA ip 192.168.8.94 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.94|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-a953b8f4-0f59-4442-b2fc-40dcce2b6fc2" name="PCF DEA ip 192.168.8.61 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.61|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-0e08e49e-d801-49f4-a8fd-593663de0460" name="PCF DEA ip 192.168.8.99 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:3 ip:192.168.8.99|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-8a4affd2-d277-481d-a40b-447185bec22f" name="PCF DEA ip 192.168.9.23 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.9.23|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-b3d0b3f9-9a7d-4ec3-b180-109f8d168930" name="PCF DEA ip 192.168.8.62 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:0 ip:192.168.8.62|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-5caeecb3-6761-4846-8b4f-a618e23433cb" name="PCF DEA ip 192.168.9.26 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:10 ip:192.168.9.26|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-db31bb2f-63c6-419b-a449-4f66193d4b5b" name="PCF DEA ip 192.168.9.29 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:2 ip:192.168.9.29|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-304509c7-927a-464b-894c-9970b174f00d" name="PCF DEA ip 192.168.8.114 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:7 ip:192.168.8.114|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="HypericApiAdapter" id="SymptomDefinition-e74ac412-f435-4be6-b28d-82e35af6d300" name="PCF DEA ip 192.168.8.95 Cannot Stage" resourceKind="Pivotal CloudFoundry 1.5.x">
+            <State severity="immediate">
+                <Condition key="DEA:DEA index:8 ip:192.168.8.95|THROUGHPUT|Can Stage" operator="&lt;" type="htmetric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>
